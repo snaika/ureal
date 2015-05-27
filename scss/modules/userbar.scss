@@ -1,0 +1,109 @@
+.header-userbar{
+	height: 35px;
+	width: 100%;
+//	position: fixed;
+	background: $darkgrey;
+	color: white;
+	display: inline-block;
+	z-index: 1000;
+}
+
+#userbar-sticky-wrapper{
+	max-height: 35px;
+}
+
+ /* *******************  search  ******************* */
+
+.header-search{
+	height: 100%;
+}
+
+.header-search form{
+	float: right;
+	height: 100%;
+	@include background-image(linear-gradient(top , #84868d 0%, #424447 100%));
+}
+
+.header-search input{
+	border: none;
+	outline:none;
+	height: 100%;
+
+	width: 250px;
+	padding: 0 45px;
+
+	color: #fff;
+	background: url('http://www.clker.com/cliparts/n/U/H/1/H/u/search-icon-white-one-md.png') no-repeat 5% center;
+  	background-size: 9%;
+  	@include transition(0.5s);
+  	&:focus{
+  		width: 320px;
+  		color: black;
+		background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png') no-repeat 2% center;
+	  	background-size: 10%;
+	  	background-color: #F0F0F0;
+	  	@include transition(0.5s);
+  	}
+}
+
+
+ /* *******************  dropdown button  ******************* */
+
+
+.header-dropdown{
+	width: 20%;
+	float: left;
+}
+
+.userbar-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.userbar-dropdown .userbar-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    margin: 0;
+    width: 100%; /** Set the width to 100% of it's parent */
+    padding: 0;
+}
+
+.userbar-dropdown:hover .userbar-dropdown-menu {
+    display: block;
+}
+
+.userbar-dropdown button {
+    background: $red;
+    color: #FFFFFF;
+    border: none;
+    margin: 0;
+    padding: 0.4em 0.8em;
+    font-size: 1em;
+    height: 35px
+}
+
+.userbar-dropdown a {
+    display: block;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+    background: #CCCCCC;
+    color: #333333;
+}
+
+.userbar-dropdown a:hover {
+    background: #E27A7A;
+  	color: white;
+  	@include transition(0.3s);
+}
+
+.header-news{
+	text-align: center;
+	float: left;
+	width: 50%;
+	p{
+		margin:1%;
+		color: #E27A7A;
+		font-size: 0.9em;
+	}
+}

@@ -1,0 +1,47 @@
+html, body, .l-wrap {height: 100%;}
+body > .l-wrap { height: auto; min-height: 100%; }
+
+p{margin: 0;}
+//div{overflow: hidden;}
+
+body{
+//	background: #f5f6f7 url(https://ssl.apple.com/ipod/images/gradient_texture20100901.jpg) repeat-x 0 0;
+	background: #f5f6f7;
+	color: $darkgrey;
+	font-size: 18px;
+	font-family: "Droid Sans", "Signika", arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a{color: inherit; text-decoration: none;}
+
+h1{
+	margin: 20px 0 40px 0 !important;
+}
+
+h2{
+	font-size: 27px;
+	line-height: 1.15;
+	font-weight: 400;
+//	letter-spacing: -2.5px;
+	text-align: center;
+}
+
+h3{
+	font-size: 24px;
+	font-weight: 400;
+	margin: auto;
+}
+
+li{
+	list-style-type: none;
+}
+
+.verticale-helper{
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.cb{clear: both;}

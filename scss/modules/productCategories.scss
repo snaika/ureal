@@ -1,0 +1,25 @@
+.product-categories{
+	padding: 20px;
+	a{
+		font-size: 1.3em;
+		text-decoration: none;
+	}
+}
+
+.cat-row{
+	min-height: 100px;
+	margin: 20px 0px;
+}
+
+.cat-name{
+	text-align: center;
+	border-right: 1px solid $grey;
+}
+
+/* .random-color{
+	color: orange;
+	&:hover{
+		color: none;
+	}
+
+} */

@@ -1,0 +1,35 @@
+.l-container{
+	@include clearfix;	
+	width: 1170px;
+	margin: 0 auto;
+}
+
+
+.l-main{
+  //    overflow:auto;
+//    padding-bottom: 150px;
+}
+
+
+/* @media screen and (min-width: 1550px)
+{
+    header > .l-container
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+	.l-container{
+		width: auto;
+		float: left;
+		margin-left: 2%;
+	}
+}
+
+@media screen and (min-width: 1600px)
+{
+    .contents > .section:first-child
+    {
+        margin-left: 6%;
+    }
+} */

@@ -1,0 +1,46 @@
+.add-to-list{
+	margin-top: 20px;
+	padding-left: 6%; 
+	background: url("../images/add.png") left/5% no-repeat;
+}
+
+.thumbs-vote{
+	height: 50px;
+	margin-top: 20px;
+	img{
+		height: inherit;
+	}
+}
+
+.obj-rate{
+	margin-bottom: 15px;
+}
+
+.obj-finalrate{
+	color: $red;
+}
+
+table tr[data-href] {
+    cursor: pointer;
+}
+
+.panel-table{
+	td{
+		width: 50%;
+	} 
+	tr:nth-child(2n+1){
+		background: $grey;
+	}
+}
+
+#tab2,#tab3,#tab4 {
+	display:none;
+}
+
+.market-img{
+	text-align: center;
+	img{
+		max-width: 100%;
+	}
+}
+
