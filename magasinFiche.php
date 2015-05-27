@@ -7,8 +7,7 @@
 <div class="section">
 	<div class="row">
 		<div class="col-md-3 market-img">
-			<img src="http://skodafantour.com/sites/default/files/animation-photos/car-market_hd.jpg">
-	
+			<img src="http://skodafantour.com/sites/default/files/animation-photos/car-market_hd.jpg">	
 			
 		</div>
 		<div class="store-summup col-md-9">
@@ -28,10 +27,7 @@
 						
 					<div class="col-xs-6 thumbs-vote">
 						<img src="http://www.clipartbest.com/cliparts/dT6/x7x/dT6x7xjT9.png" alt="">
-					</div>
-
-
-			
+					</div>			
 			</div>			
 		</div>
 
@@ -45,7 +41,7 @@
 				<li role="presentation" class="active panel-btn" data-check="tab1"><a href="#">Caratéristique</a></li>
 				<li role="presentation" class="panel-btn" data-check="tab2"><a href="#">Description</a></li>
 				<li role="presentation" class="panel-btn" data-check="tab3"><a href="#">Avis</a></li>
-				<li role="presentation" class="panel-btn" data-check="tab4"><a href="#">Map</a></li>
+				<li role="presentation" class="panel-btn" data-check="tab4"><a href="#">Carte</a></li>
 			</ul>
 		</div>
 		<div class="col-md-9">
