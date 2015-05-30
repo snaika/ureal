@@ -1470,17 +1470,7 @@ table tr[data-href] {
   margin-left: -50%;
 }
 
-/*!
- * @copyright &copy; Kartik Visweswaran, Krajee.com, 2013 - 2015
- * @version 3.5.2
- *
- * A simple yet powerful JQuery star rating plugin that allows rendering
- * fractional star ratings and supports Right to Left (RTL) input.
- *
- * For more JQuery/Bootstrap plugins and demos visit http://plugins.krajee.com
- * For more Yii related demos visit http://demos.krajee.com
- */
-/* line 11, ../scss/modules/starRating.scss */
+/* line 2, ../scss/modules/starRating.scss */
 .rating-loading {
   width: 25px;
   height: 25px;
@@ -1493,60 +1483,60 @@ table tr[data-href] {
 /*
  * Stars
  */
-/* line 22, ../scss/modules/starRating.scss */
+/* line 13, ../scss/modules/starRating.scss */
 .rating-fa {
   font-family: 'FontAwesome';
   padding-left: 1px;
 }
 
-/* line 27, ../scss/modules/starRating.scss */
+/* line 18, ../scss/modules/starRating.scss */
 .rating-fa .rating-stars:before {
   padding-left: 1px;
 }
 
-/* line 31, ../scss/modules/starRating.scss */
+/* line 22, ../scss/modules/starRating.scss */
 .rating-gly {
   font-family: 'Glyphicons Halflings';
 }
 
-/* line 35, ../scss/modules/starRating.scss */
+/* line 26, ../scss/modules/starRating.scss */
 .rating-gly-star {
   font-family: 'Glyphicons Halflings';
   padding-left: 2px;
 }
 
-/* line 40, ../scss/modules/starRating.scss */
+/* line 31, ../scss/modules/starRating.scss */
 .rating-gly-star .rating-stars:before {
   padding-left: 2px;
 }
 
-/* line 44, ../scss/modules/starRating.scss */
+/* line 35, ../scss/modules/starRating.scss */
 .rating-lg .rating-gly-star, .rating-lg .rating-gly-star .rating-stars:before {
   padding-left: 4px;
 }
 
-/* line 48, ../scss/modules/starRating.scss */
+/* line 39, ../scss/modules/starRating.scss */
 .rating-xl .rating-gly-star, .rating-xl .rating-gly-star .rating-stars:before {
   padding-left: 2px;
 }
 
-/* line 52, ../scss/modules/starRating.scss */
+/* line 43, ../scss/modules/starRating.scss */
 .rating-active {
   cursor: default;
 }
 
-/* line 56, ../scss/modules/starRating.scss */
+/* line 47, ../scss/modules/starRating.scss */
 .rating-disabled {
   cursor: not-allowed;
 }
 
-/* line 60, ../scss/modules/starRating.scss */
+/* line 51, ../scss/modules/starRating.scss */
 .rating-uni {
   font-size: 1.2em;
   margin-top: -5px;
 }
 
-/* line 65, ../scss/modules/starRating.scss */
+/* line 56, ../scss/modules/starRating.scss */
 .rating-container {
   position: relative;
   vertical-align: middle;
@@ -1555,12 +1545,12 @@ table tr[data-href] {
   overflow: hidden;
 }
 
-/* line 73, ../scss/modules/starRating.scss */
+/* line 64, ../scss/modules/starRating.scss */
 .rating-container:before {
   content: attr(data-content);
 }
 
-/* line 77, ../scss/modules/starRating.scss */
+/* line 68, ../scss/modules/starRating.scss */
 .rating-container .rating-stars {
   position: absolute;
   left: 0;
@@ -1574,13 +1564,13 @@ table tr[data-href] {
   -webkit-transition: all 0.25s ease-out;
 }
 
-/* line 90, ../scss/modules/starRating.scss */
+/* line 81, ../scss/modules/starRating.scss */
 .rating-container .rating-stars:before {
   content: attr(data-content);
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
 }
 
-/* line 95, ../scss/modules/starRating.scss */
+/* line 86, ../scss/modules/starRating.scss */
 .rating-container-rtl {
   position: relative;
   vertical-align: middle;
@@ -1589,13 +1579,13 @@ table tr[data-href] {
   color: #fde16d;
 }
 
-/* line 103, ../scss/modules/starRating.scss */
+/* line 94, ../scss/modules/starRating.scss */
 .rating-container-rtl:before {
   content: attr(data-content);
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
 }
 
-/* line 108, ../scss/modules/starRating.scss */
+/* line 99, ../scss/modules/starRating.scss */
 .rating-container-rtl .rating-stars {
   position: absolute;
   left: 0;
@@ -1609,7 +1599,7 @@ table tr[data-href] {
   -webkit-transition: all 0.25s ease-out;
 }
 
-/* line 121, ../scss/modules/starRating.scss */
+/* line 112, ../scss/modules/starRating.scss */
 .rating-container-rtl .rating-stars:before {
   content: attr(data-content);
 }
@@ -1617,27 +1607,27 @@ table tr[data-href] {
 /**
  * Rating sizes
  */
-/* line 128, ../scss/modules/starRating.scss */
+/* line 119, ../scss/modules/starRating.scss */
 .rating-xl {
   font-size: 4.89em;
 }
 
-/* line 132, ../scss/modules/starRating.scss */
+/* line 123, ../scss/modules/starRating.scss */
 .rating-lg {
   font-size: 3.91em;
 }
 
-/* line 136, ../scss/modules/starRating.scss */
+/* line 127, ../scss/modules/starRating.scss */
 .rating-md {
   font-size: 3.13em;
 }
 
-/* line 140, ../scss/modules/starRating.scss */
+/* line 131, ../scss/modules/starRating.scss */
 .rating-sm {
   font-size: 2.5em;
 }
 
-/* line 144, ../scss/modules/starRating.scss */
+/* line 135, ../scss/modules/starRating.scss */
 .rating-xs {
   font-size: 2em;
 }
@@ -1645,7 +1635,7 @@ table tr[data-href] {
 /**
  * Clear rating button
  */
-/* line 151, ../scss/modules/starRating.scss */
+/* line 142, ../scss/modules/starRating.scss */
 .star-rating .clear-rating, .star-rating-rtl .clear-rating {
   color: #aaa;
   cursor: not-allowed;
@@ -1654,17 +1644,17 @@ table tr[data-href] {
   font-size: 60%;
 }
 
-/* line 159, ../scss/modules/starRating.scss */
+/* line 150, ../scss/modules/starRating.scss */
 .clear-rating-active {
   cursor: pointer !important;
 }
 
-/* line 163, ../scss/modules/starRating.scss */
+/* line 154, ../scss/modules/starRating.scss */
 .clear-rating-active:hover {
   color: #843534;
 }
 
-/* line 167, ../scss/modules/starRating.scss */
+/* line 158, ../scss/modules/starRating.scss */
 .star-rating .clear-rating {
   padding-right: 5px;
 }
@@ -1672,7 +1662,7 @@ table tr[data-href] {
 /**
  * Caption
  */
-/* line 174, ../scss/modules/starRating.scss */
+/* line 165, ../scss/modules/starRating.scss */
 .star-rating .caption, .star-rating-rtl .caption {
   color: #999;
   display: inline-block;
@@ -1680,12 +1670,87 @@ table tr[data-href] {
   font-size: 55%;
 }
 
-/* line 181, ../scss/modules/starRating.scss */
+/* line 172, ../scss/modules/starRating.scss */
 .star-rating .caption {
   padding-left: 5px;
 }
 
-/* line 185, ../scss/modules/starRating.scss */
+/* line 176, ../scss/modules/starRating.scss */
 .star-rating-rtl .caption {
   padding-right: 5px;
 }
+
+/* Product Search Result Page*/
+/* line 3, ../scss/modules/search.scss */
+.search-tab {
+  background-color: #eaedf1;
+}
+
+/* line 7, ../scss/modules/search.scss */
+.search-nav {
+  padding: 0 20px;
+}
+
+/* line 11, ../scss/modules/search.scss */
+.search-res {
+  background-color: white;
+  padding: 20px;
+}
+
+/* Search Result Product thumbnail*/
+/* line 18, ../scss/modules/search.scss */
+.search-res-product {
+  border: 1px solid #eaedf1;
+  height: 320px;
+  overflow: hidden;
+  margin-bottom: 10%;
+  float: left;
+}
+/* line 19, ../scss/modules/search.scss */
+.search-res-product img {
+  width: auto;
+  height: auto;
+  max-height: 150px;
+  max-width: 95%;
+}
+/* line 27, ../scss/modules/search.scss */
+.search-res-product .product-price {
+  width: 100%;
+  padding: 1%;
+  display: block;
+  z-index: 10;
+  text-align: center;
+  background-color: #dd4343;
+  color: white;
+}
+/* line 40, ../scss/modules/search.scss */
+.search-res-product .product-info {
+  padding: 3%;
+  text-align: center;
+}
+/* line 45, ../scss/modules/search.scss */
+.search-res-product .product-rate {
+  font-size: 0.7em;
+  pointer-events: none;
+  cursor: default;
+}
+/* line 51, ../scss/modules/search.scss */
+.search-res-product .product-interact {
+  height: 30px;
+  min-width: 100%;
+}
+/* line 55, ../scss/modules/search.scss */
+.search-res-product .product-interact img {
+  height: 20px;
+  margin: 0 10px;
+  width: auto;
+}
+
+/* line 71, ../scss/modules/search.scss */
+.search-res-product-thumbnail {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Search Result NAVIGATION BAR */

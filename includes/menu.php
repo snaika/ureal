@@ -19,7 +19,7 @@
 				 <p>some information</p>
 			</div>
 			<div class="header-search">
-				<form action="#">
+				<form action="./search.php">
 					<input type="text" name="q" id="search" placeholder='search on upReal'>
 				</form>
 			</div>
