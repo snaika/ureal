@@ -10,7 +10,7 @@
 				<table class="table table-bordered">
 				           <th>Nom</th>
 				           <th>Distance</th>
-				        <tr data-href="./magasinFiche.php">
+				        <tr data-href="./storeInfo.php">
 				           <td>Auchan fontenay</td>
 				           <td>50 m</td>
 				       </tr>
@@ -44,7 +44,7 @@
       <h3 class="text-left">Utilisateurs près de chez vous</h3>
       <div class="row">
         <div class="col-xs-4 item-box">
-
+			<a href="./userInfo.php">
               <div class="row">
                 <div class="col-xs-12">
                   <div class="col-xs-4 item-list-thumb">
@@ -60,8 +60,10 @@
                   </div>
                 </div>
               </div>
+			</a>
         </div>
         <div class="col-xs-4 item-box">
+			<a href="./userInfo.php">
               <div class="row">
                 <div class="col-xs-12">
                   <div class="col-xs-4 item-list-thumb">
@@ -77,9 +79,11 @@
                   </div>
                 </div>
             </div>
+			</a>
         </div>
         <div class="col-xs-4 item-box">
-          <div class="row">
+			<a href="./userInfo.php">
+				<div class="row">
                 <div class="col-xs-12">
                   <div class="col-xs-4 item-list-thumb">
                     <span class="verticale-helper"></span><img src="img/header-logo.png" alt="produit" class="item-thumb">
@@ -94,6 +98,7 @@
                   </div>
                 </div>
             </div>
+			</a>
           </div>
       </div>
       <p class="text-right link-container">

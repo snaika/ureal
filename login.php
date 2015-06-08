@@ -33,9 +33,9 @@
 <!-- end-form -->
 <!-- start-account -->
 <div class="account">
-	<h2><a href="#">Pas encore de compte?<br> Inscrivez vous!</a></h2>
-    <div class="span"><a href="#"><img src="images/facebook.png" alt=""/><i>Connection via  Facebook</i><div class="clear"></div></a></div>	
-    <div class="span1"><a href="#"><img src="images/twitter.png" alt=""/><i>Connection via  Twitter</i><div class="clear"></div></a></div>
+	<h2><a href="#">Pas encore de compte?<br> Inscrivez-vous!</a></h2>
+    <div class="span"><a href="#"><img src="images/facebook.png" alt=""/><i>Connection via Facebook</i><div class="clear"></div></a></div>	
+    <div class="span1"><a href="#"><img src="images/twitter.png" alt=""/><i>Connection via Twitter</i><div class="clear"></div></a></div>
     <div class="span2"><a href="#"><img src="images/gplus.png" alt=""/><i>Connection via Google+</i><div class="clear"></div></a></div>
 </div>	
 <!-- end-account -->

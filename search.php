@@ -21,18 +21,18 @@
 							</ul>
 
 							<h2>Prix</h2>
-							<INPUT type="checkbox" name="choix1" value="1"> glace vanille
-<INPUT type="checkbox" name="choix2" value="2"> chantilly
-<INPUT type="checkbox" name="choix3" value="3"> chocolat chaud
-
-
+							<ul>
+								<li><INPUT type="checkbox" name="choix1" value="1"> glace vanille</li>
+								<li><INPUT type="checkbox" name="choix2" value="2"> chantilly</li>
+								<li><INPUT type="checkbox" name="choix3" value="3"> chocolat chaud</li>
+							</ul>
 						</div>
 
 
 						<div class="col-xs-9 search-res">	<!-- colonne des produits -->
 			
 							<div class="col-xs-3 search-products-thumbnail">	<!-- vignette de produit -->
-								<a href="./productFiche.php">
+								<a href="./productInfo.php">
 								<div class="search-res-product">
 										<div class="search-res-product-thumbnail">
 										<span class="verticale-helper"></span>

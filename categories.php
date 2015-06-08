@@ -9,16 +9,20 @@
 		<div class="product-categories">
 			<div class="row cat-row">
 				<div class="col-xs-3 cat-name">
-					<a href="#" title="" class="random-color" >Animaux</a>
+					<img src="img/categories/animaux.jpg" alt="produit" height="50" width="200"/>
+					<a href="./search.php" title="" class="random-color" >Animaux</a>
 				</div>
 				<div class="col-xs-3 cat-name">
-					<a href="#" title="" class="random-color" >Auto & Moto</a>
+					<img src="img/categories/auto&moto.jpg" alt="produit" height="50" width="200"/>
+					<a href="./search.php" title="" class="random-color" >Auto & Moto</a>
 				</div>
 				<div class="col-xs-3 cat-name">
-					<a href="#" title="" class="random-color" >Boissons</a>
+					<img src="img/categories/boissons.jpg" alt="produit" height="50" width="200"/>
+					<a href="./search.php" title="" class="random-color" >Boissons</a>
 				</div>
 				<div class="col-xs-3 cat-name">
-					<a href="#" title="" class="random-color" >Boucherie</a>
+					<img src="img/categories/boucherie.jpg" alt="produit" height="50" width="200"/>
+					<a href="./search.php" title="" class="random-color" >Boucherie</a>
 				</div>
 
 			
@@ -50,7 +54,7 @@
 					<a href="#" title="" class="random-color" >Entretien maison</a>
 				</div>
 				<div class="col-xs-3 cat-name">
-					<a href="./productCategorie.php" title="" class="random-color" >Epicerie</a>
+					<a href="./productCategory.php" title="" class="random-color" >Epicerie</a>
 				</div>			
 			</div>
 
