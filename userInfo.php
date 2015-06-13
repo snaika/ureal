@@ -77,6 +77,10 @@
 					<td >Ventes terminées</td>
 					<td >52</td>
 					</tr>
+					<tr class="odd">
+					<td >Avis</td>
+					<td >124</td>
+					</tr>
 				</table>
 
 
