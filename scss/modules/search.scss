@@ -1,16 +1,34 @@
 /* Product Search Result Page*/
 
 .search-tab{
-	background-color: $grey;
+	width: 100%;
+//	height: auto;
+display: table;
+
 }
+
+.search-tab > div {
+display: table-cell;
+
+}
+
+
+
 
 .search-nav{
 	padding: 0 20px;
+	background-color: $grey;
+display: table-cell;
+
+
 }
 
 .search-res{
 	background-color: white;
 	padding: 20px;
+//	height: 100%;
+display: table-cell;
+
 }
 
 /* Search Result Product thumbnail*/

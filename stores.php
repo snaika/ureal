@@ -11,7 +11,7 @@
 				           <th>Nom</th>
 				           <th>Distance</th>
 				        <tr data-href="./storeInfo.php">
-				           <td>Auchan fontenay</td>
+				           <td>Carrefour Rosny 2</td>
 				           <td>50 m</td>
 				       </tr>
 				       <tr>
@@ -52,7 +52,7 @@
                   </div>
                   <div class="col-xs-8">
                     <p class="item-name">
-                      Jean Bon
+                      Jean Bonduel
                     </p>
                     <div class="item-rating">
 

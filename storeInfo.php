@@ -3,31 +3,36 @@
 <?php include("includes/menu.php"); ?>
 
 <div class="l-container">
-	<h2 class="text-left">Carrefour Market Lignieres</h2>
+	<h2 class="text-left">Carrefour Rosny 2</h2>
 <div class="section">
 	<div class="row">
 		<div class="col-md-3 market-img">
-			<img src="http://skodafantour.com/sites/default/files/animation-photos/car-market_hd.jpg">	
+			<img src="http://static1.portal.carrefour.fr/sites/default/files/public/images/logo_default_new.png">	
 			
 		</div>
 		<div class="store-summup col-md-9">
 			<ul>
-				<li>Adresse : Avenue de Verdun, 18160 LIGNIERE</li>
+				<li>Adresse : Avenue de Verdun, 93120 Rosny /s Bois</li>
 				<li>Horaire :</li>
 				<li>du lundi  au vendredi 9h à 21h</li>
 				<li>le samedi - de 8h 22h</li><br>
 				<li>Telephone 01.89.34.76.35</li>
 			</ul>
 			<br>
+
+			<div class="col-xs-12 obj-rate">
+	            <div class="col-xs-3 item-rating">
+	     			<input id="input-2c" class="rating" value='4.3' readonly="true" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+	             </div>
+				<span class="col-xs-3 obj-finalrate">4,32/5 (47 avis)</span>
+				<div class="col-xs-5 thumbs-vote">
+					<img src="http://www.clipartbest.com/cliparts/dT6/x7x/dT6x7xjT9.png" alt="">
+				</div>
+			</div>
 			<div class="col-xs-12">
-					<div class="col-xs-6">
-						<p>les étoiles (4.25/5)</p>
-						<a href="#"><p class="add-to-list">Ajouter à ma liste</p></a>
-					</div>
-						
-					<div class="col-xs-6 thumbs-vote">
-						<img src="http://www.clipartbest.com/cliparts/dT6/x7x/dT6x7xjT9.png" alt="">
-					</div>			
+				<div class="col-xs-6">
+					<a href="#"><p class="add-to-list">Ajouter à ma liste</p></a>
+				</div>
 			</div>			
 		</div>
 
@@ -39,7 +44,7 @@
 		<div class="col-md-3">
 			<ul class="nav nav-pills nav-stacked">
 				<li role="presentation" class="active panel-btn" data-check="tab1"><a href="#">Caratéristique</a></li>
-				<li role="presentation" class="panel-btn" data-check="tab2"><a href="#">Description</a></li>
+ 				<li role="presentation" class="panel-btn" data-check="tab2"><a href="#">Catalogues</a></li>
 				<li role="presentation" class="panel-btn" data-check="tab3"><a href="#">Avis</a></li>
 				<li role="presentation" class="panel-btn" data-check="tab4"><a href="#">Carte</a></li>
 			</ul>

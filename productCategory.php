@@ -4,7 +4,7 @@
 
 	<div class="l-container">
 	<h1>Au rayon EPICERIE</h1>
-<a href="./productFiche.php"><div class="products-list">
+<a href="./productInfo.php"><div class="products-list">
 	
 	    <div class="items-list categorie-products">
 	      <div class="row">

@@ -1,12 +1,12 @@
 .add-to-list{
-	margin-top: 20px;
+	margin: 20px 0;
 	padding-left: 6%; 
 	background: url("../images/add.png") left/5% no-repeat;
 }
 
 .thumbs-vote{
 	height: 50px;
-	margin-top: 20px;
+//	margin-top: 20px;
 	img{
 		height: inherit;
 	}
@@ -16,9 +16,7 @@
 	margin-bottom: 15px;
 }
 
-.obj-finalrate{
-	color: $red;
-}
+
 
 table tr[data-href] {
     cursor: pointer;

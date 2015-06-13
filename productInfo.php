@@ -20,14 +20,13 @@
 				</div>
 			</div>
 			<div class="col-xs-12 obj-rate">
-				<div class="col-xs-4 obj-finalstars">
-					<p>4 etoiles</p>
-				</div>
-				<div class="col-xs-6 ">
-					<span class="col-xs-6 obj-finalrate">
+                <div class="col-xs-3 item-rating">
+      <input id="input-2c" class="rating" value='4.3' readonly="true" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+                </div>
+					<span class="col-xs-4 obj-finalrate">
 						4,32/5 (47 avis)
 					</span>
-				</div>
+
 			</div>
 
 
