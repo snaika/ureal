@@ -28,7 +28,7 @@
 
 
 				<div class="col-xs-6">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p>A la recherche de perles rares et autres. J'aime les années 80 et tout ce qui est rétro, n'hésitez pas me faire des propositions. Je peux me déplacer en IDF, pour toute propositions intéréssantes. N'hésitez pas non plus a allez voir mes ventes.</p>
 				</div>
 				<div class="col-xs-6">
 							<a href="#"><p class="add-to-list">Ajouter à ma liste</p></a>						
