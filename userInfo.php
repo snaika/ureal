@@ -63,7 +63,7 @@
 
 					<tr class="odd">
 					<td >Inscription</td>
-					<td >02 06 2015</td>
+					<td >02-06-2015</td>
 					</tr>
 					<tr class="even">
 					<td >Ville</td>
