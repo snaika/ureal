@@ -87,7 +87,7 @@
                   Tablette Milka
                 </p>
                 <div class="item-rating">
-      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">  
+                  <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">  
                 </div>
               </div>
             </div>
@@ -186,56 +186,57 @@
       <h3 class="text-left">Utilisateurs près de chez vous</h3>
       <div class="row">
         <div class="col-xs-4 item-box">
-
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="col-xs-4 item-list-thumb">
-                    <span class="verticale-helper"></span><img src="img/header-logo.png" alt="produit" class="item-thumb">
-                  </div>
-                  <div class="col-xs-8">
-                    <p class="item-name">
-                      Jean Bon
-                    </p>
-                    <div class="item-rating">
-
+            <a href="./userInfo.php">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-xs-4 item-list-thumb">
+                      <span class="verticale-helper"></span><img src="img/header-logo.png" alt="produit" class="item-thumb">
                     </div>
+                    <div class="col-xs-8">
+                      <p class="item-name">
+                        Jean Bon
+                      </p>
+                      <div class="item-rating">
+                            <input id="input-2c" class="rating" value='4.3' readonly="true" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </a>
+        </div>
+        <div class="col-xs-4 item-box">
+          <a href="./userInfo.php"><div class="row">
+              <div class="col-xs-12">
+                <div class="col-xs-4 item-list-thumb">
+                  <span class="verticale-helper"></span><img src="img/header-logo.png" alt="produit" class="item-thumb">
+                </div>
+                <div class="col-xs-8">
+                  <p class="item-name">
+                    Jean Neymar
+                  </p>
+                  <div class="item-rating">            
+                            <input id="input-2c" class="rating" value='4.3' readonly="true" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
                   </div>
                 </div>
               </div>
+              </div></a>
         </div>
         <div class="col-xs-4 item-box">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="col-xs-4 item-list-thumb">
-                    <span class="verticale-helper"></span><img src="img/header-logo.png" alt="produit" class="item-thumb">
-                  </div>
-                  <div class="col-xs-8">
-                    <p class="item-name">
-                      Jean Neymar
-                    </p>
-                    <div class="item-rating">
-
+          <a href="./userInfo.php"><div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-xs-4 item-list-thumb">
+                      <span class="verticale-helper"></span><img src="img/header-logo.png" alt="produit" class="item-thumb">
+                    </div>
+                    <div class="col-xs-8">
+                      <p class="item-name">
+                        Barry Porter
+                      </p>
+                      <div class="item-rating">
+                            <input id="input-2c" class="rating" value='4.3' readonly="true" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+                      </div>
                     </div>
                   </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-4 item-box">
-          <div class="row">
-                <div class="col-xs-12">
-                  <div class="col-xs-4 item-list-thumb">
-                    <span class="verticale-helper"></span><img src="img/header-logo.png" alt="produit" class="item-thumb">
-                  </div>
-                  <div class="col-xs-8">
-                    <p class="item-name">
-                      Barry Porter
-                    </p>
-                    <div class="item-rating">
-
-                    </div>
-                  </div>
-                </div>
-            </div>
+              </div></a>
           </div>
       </div>
       <p class="text-right link-container">

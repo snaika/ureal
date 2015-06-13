@@ -212,7 +212,7 @@
 										<div class="product-info">
 											<div class="product-title">Jean Bonduel</div>
 											<div class="product-rate">
-												      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+    											  <input id="input-2c" class="rating" value='4.3' readonly="true" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
 											</div>
 											</a>
 											<div class="product-interact">
@@ -236,7 +236,7 @@
 										<div class="product-info">
 											<div class="product-title">Barry Porter</div>
 											<div class="product-rate">
-												      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+    											  <input id="input-2c" class="rating" value='4.3' readonly="true" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
 											</div>
 											</a>
 											<div class="product-interact">
