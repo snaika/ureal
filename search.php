@@ -3,12 +3,18 @@
 <?php include("includes/menu.php"); ?>
 
 <div class="l-container">
+	<div class="section sSelector" style="text-align:center;">
+			<a class="active panel-btn sbutton" data-check="tab1" href="#"><img src="http://www.comerciolocal.eu/pt/images/icone_cesta.gif" alt=""></a>
+ 			<a class="panel-btn sbutton" data-check="tab2" href="#"><img src="http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png" alt=""></a>
+			<a class="panel-btn sbutton" data-check="tab3" href="#"><img src="http://www.icone-png.com/png/29/28550.png" alt=""></a>
+	</div>
+
 	<h2 class="text-left">36 240 résultats correspondent à votre recherche</h2>
 	<div class="section">
 
 		<div class="search">
 			
-					<div class="row search-tab" id="product-res">
+					<div class="row search-tab product-res  active" id="tab1">
 						<div class="col-xs-3 search-nav">	<!-- colonne de navigation -->
 							<h2>Catégorie</h2>
 							<ul>
@@ -76,7 +82,7 @@
 					</div>
 
 			
-					<div class="row search-tab" id="store-res">
+					<div class="row search-tab store-res" id="tab2">
 						<div class="col-xs-3 search-nav">	<!-- colonne de navigation -->
 							<h2>Région</h2>
 							<ul>
@@ -180,7 +186,7 @@
 					</div>
 
 			
-					<div class="row search-tab" id="user-res">
+					<div class="row search-tab user-res" id="tab3">
 						<div class="col-xs-3 search-nav">	<!-- colonne de navigation -->
 
 							<h2>Distances</h2>

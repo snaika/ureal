@@ -16,6 +16,8 @@ $(".panel-btn").click(function(){
 	$(this).addClass('active');	
 })
 
+
+
 });
 
 /*
