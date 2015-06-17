@@ -1773,16 +1773,16 @@ table tr[data-href] {
   width: 50px;
 }
 /* line 10, ../scss/modules/searchSelector.scss */
-.sSelector .sbutton {
+.sSelector .sbutton1 {
   margin: 0 5%;
   -moz-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
   -webkit-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
   box-shadow: inset 0px 1px 0px 0px #d9fbbe;
-  background: 15px 50%, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iI2VkNjM2MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RkNDM0MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background: 15px 50%, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(5%, #ed6363), color-stop(100%, #dd4343));
-  background: 15px 50%, -moz-linear-gradient(top, #ed6363 5%, #dd4343 100%);
-  background: 15px 50%, -webkit-linear-gradient(top, #ed6363 5%, #dd4343 100%);
-  background: 15px 50%, linear-gradient(to bottom, #ed6363 5%, #dd4343 100%);
+  background: url(http://www.comerciolocal.eu/pt/images/icone_cesta.gif) no-repeat 50% 50%/40%, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iI2VkNjM2MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RkNDM0MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: url(http://www.comerciolocal.eu/pt/images/icone_cesta.gif) no-repeat 50% 50%/40%, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(5%, #ed6363), color-stop(100%, #dd4343));
+  background: url(http://www.comerciolocal.eu/pt/images/icone_cesta.gif) no-repeat 50% 50%/40%, -moz-linear-gradient(top, #ed6363 5%, #dd4343 100%);
+  background: url(http://www.comerciolocal.eu/pt/images/icone_cesta.gif) no-repeat 50% 50%/40%, -webkit-linear-gradient(top, #ed6363 5%, #dd4343 100%);
+  background: url(http://www.comerciolocal.eu/pt/images/icone_cesta.gif) no-repeat 50% 50%/40%, linear-gradient(to bottom, #ed6363 5%, #dd4343 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6363', endColorstr='$red',GradientType=0);
   background-color: #ed6363;
   -moz-border-radius: 100%;
@@ -1795,22 +1795,130 @@ table tr[data-href] {
   font-family: Arial;
   font-size: 15px;
   font-weight: bold;
-  padding: 4%;
+  padding: 6%;
   text-decoration: none;
   text-shadow: 0px 1px 0px #e83c3c;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
-/* line 27, ../scss/modules/searchSelector.scss */
-.sSelector .sbutton:hover {
+/* line 29, ../scss/modules/searchSelector.scss */
+.sSelector .sbutton1:hover {
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   color: white;
-  background: 15px 50%, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iI2RkNDM0MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkNjM2MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background: 15px 50%, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(5%, #dd4343), color-stop(100%, #ed6363));
-  background: 15px 50%, -moz-linear-gradient(top, #dd4343 5%, #ed6363 100%);
-  background: 15px 50%, -webkit-linear-gradient(top, #dd4343 5%, #ed6363 100%);
-  background: 15px 50%, linear-gradient(to bottom, #dd4343 5%, #ed6363 100%);
+  background: url(http://www.comerciolocal.eu/pt/images/icone_cesta.gif) no-repeat 50% 50%/50%, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iI2RkNDM0MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkNjM2MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: url(http://www.comerciolocal.eu/pt/images/icone_cesta.gif) no-repeat 50% 50%/50%, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(5%, #dd4343), color-stop(100%, #ed6363));
+  background: url(http://www.comerciolocal.eu/pt/images/icone_cesta.gif) no-repeat 50% 50%/50%, -moz-linear-gradient(top, #dd4343 5%, #ed6363 100%);
+  background: url(http://www.comerciolocal.eu/pt/images/icone_cesta.gif) no-repeat 50% 50%/50%, -webkit-linear-gradient(top, #dd4343 5%, #ed6363 100%);
+  background: url(http://www.comerciolocal.eu/pt/images/icone_cesta.gif) no-repeat 50% 50%/50%, linear-gradient(to bottom, #dd4343 5%, #ed6363 100%);
   background-color: #dd4343;
 }
-/* line 32, ../scss/modules/searchSelector.scss */
-.sSelector .sbutton:active {
+/* line 35, ../scss/modules/searchSelector.scss */
+.sSelector .sbutton1:active {
+  position: relative;
+  top: 1px;
+}
+/* line 40, ../scss/modules/searchSelector.scss */
+.sSelector .sbutton2 {
+  margin: 0 5%;
+  -moz-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+  box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+  background: url(http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png) no-repeat 50% 50%/40%, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iI2VkNjM2MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RkNDM0MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: url(http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png) no-repeat 50% 50%/40%, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(5%, #ed6363), color-stop(100%, #dd4343));
+  background: url(http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png) no-repeat 50% 50%/40%, -moz-linear-gradient(top, #ed6363 5%, #dd4343 100%);
+  background: url(http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png) no-repeat 50% 50%/40%, -webkit-linear-gradient(top, #ed6363 5%, #dd4343 100%);
+  background: url(http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png) no-repeat 50% 50%/40%, linear-gradient(to bottom, #ed6363 5%, #dd4343 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6363', endColorstr='$red',GradientType=0);
+  background-color: #ed6363;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  border: 1px solid #ed7979;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6%;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e83c3c;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 58, ../scss/modules/searchSelector.scss */
+.sSelector .sbutton2:hover {
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+  background: url(http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png) no-repeat 50% 50%/50%, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iI2RkNDM0MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkNjM2MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: url(http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png) no-repeat 50% 50%/50%, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(5%, #dd4343), color-stop(100%, #ed6363));
+  background: url(http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png) no-repeat 50% 50%/50%, -moz-linear-gradient(top, #dd4343 5%, #ed6363 100%);
+  background: url(http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png) no-repeat 50% 50%/50%, -webkit-linear-gradient(top, #dd4343 5%, #ed6363 100%);
+  background: url(http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png) no-repeat 50% 50%/50%, linear-gradient(to bottom, #dd4343 5%, #ed6363 100%);
+  background-color: #dd4343;
+}
+/* line 64, ../scss/modules/searchSelector.scss */
+.sSelector .sbutton2:active {
+  position: relative;
+  top: 1px;
+}
+/* line 69, ../scss/modules/searchSelector.scss */
+.sSelector .sbutton3 {
+  margin: 0 5%;
+  -moz-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+  box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+  background: url(http://www.icone-png.com/png/29/28550.png) no-repeat 50% 50%/40%, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iI2VkNjM2MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RkNDM0MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: url(http://www.icone-png.com/png/29/28550.png) no-repeat 50% 50%/40%, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(5%, #ed6363), color-stop(100%, #dd4343));
+  background: url(http://www.icone-png.com/png/29/28550.png) no-repeat 50% 50%/40%, -moz-linear-gradient(top, #ed6363 5%, #dd4343 100%);
+  background: url(http://www.icone-png.com/png/29/28550.png) no-repeat 50% 50%/40%, -webkit-linear-gradient(top, #ed6363 5%, #dd4343 100%);
+  background: url(http://www.icone-png.com/png/29/28550.png) no-repeat 50% 50%/40%, linear-gradient(to bottom, #ed6363 5%, #dd4343 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6363', endColorstr='$red',GradientType=0);
+  background-color: #ed6363;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  border: 1px solid #ed7979;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6%;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e83c3c;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 88, ../scss/modules/searchSelector.scss */
+.sSelector .sbutton3:hover {
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+  background: url(http://www.icone-png.com/png/29/28550.png) no-repeat 50% 50%/50%, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iI2RkNDM0MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkNjM2MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: url(http://www.icone-png.com/png/29/28550.png) no-repeat 50% 50%/50%, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(5%, #dd4343), color-stop(100%, #ed6363));
+  background: url(http://www.icone-png.com/png/29/28550.png) no-repeat 50% 50%/50%, -moz-linear-gradient(top, #dd4343 5%, #ed6363 100%);
+  background: url(http://www.icone-png.com/png/29/28550.png) no-repeat 50% 50%/50%, -webkit-linear-gradient(top, #dd4343 5%, #ed6363 100%);
+  background: url(http://www.icone-png.com/png/29/28550.png) no-repeat 50% 50%/50%, linear-gradient(to bottom, #dd4343 5%, #ed6363 100%);
+  background-color: #dd4343;
+}
+/* line 94, ../scss/modules/searchSelector.scss */
+.sSelector .sbutton3:active {
   position: relative;
   top: 1px;
 }

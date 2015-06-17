@@ -7,10 +7,10 @@
 	}
 
 
-	.sbutton {
+	.sbutton1 {
 		margin: 0 5%;
 		@include box-shadow(inset 0px 1px 0px 0px #d9fbbe);
-		@include background(15px 50%, linear-gradient(to bottom, #ed6363 5%, $red 100%));
+		@include background(image-url("http://www.comerciolocal.eu/pt/images/icone_cesta.gif") no-repeat 50% 50%/40%, linear-gradient(to bottom, #ed6363 5%, $red 100%));
 		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6363', endColorstr='$red',GradientType=0);
 		background-color:#ed6363;
 		@include border-radius(100%);
@@ -21,12 +21,74 @@
 		font-family:Arial;
 		font-size:15px;
 		font-weight:bold;
-		padding:4%;
+		padding:6%;
 		text-decoration:none;
 		text-shadow:0px 1px 0px #e83c3c;
+		@include transition(0.3s);
+
 		&:hover{
+			@include transition(0.3s);
 			color:white;
-			@include background( 15px 50%, linear-gradient(top, $red 5%, #ed6363 100%));
+			@include background(image-url("http://www.comerciolocal.eu/pt/images/icone_cesta.gif") no-repeat  50% 50%/50%, linear-gradient(top, $red 5%, #ed6363 100%));
+			background-color:$red;
+		}
+		&:active {
+			position:relative;
+			top:1px;
+		}
+	}
+	.sbutton2 {
+		margin: 0 5%;
+		@include box-shadow(inset 0px 1px 0px 0px #d9fbbe);
+		@include background(image-url("http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png") no-repeat 50% 50%/40%, linear-gradient(to bottom, #ed6363 5%, $red 100%));
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6363', endColorstr='$red',GradientType=0);
+		background-color:#ed6363;
+		@include border-radius(100%);
+		border:1px solid #ed7979;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:6%;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #e83c3c;
+		@include transition(0.3s);
+		&:hover{
+			@include transition(0.3s);
+			color:white;
+			@include background(image-url("http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png") no-repeat  50% 50%/50%, linear-gradient(top, $red 5%, #ed6363 100%));
+			background-color:$red;
+		}
+		&:active {
+			position:relative;
+			top:1px;
+		}
+	}
+	.sbutton3 {
+		margin: 0 5%;
+		@include box-shadow(inset 0px 1px 0px 0px #d9fbbe);
+		@include background(image-url("http://www.icone-png.com/png/29/28550.png") no-repeat 50% 50%/40%, linear-gradient(to bottom, #ed6363 5%, $red 100%));
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed6363', endColorstr='$red',GradientType=0);
+		background-color:#ed6363;
+		@include border-radius(100%);
+		border:1px solid #ed7979;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:6%;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #e83c3c;
+  		@include transition(0.3s);
+
+		&:hover{
+	  		@include transition(0.3s);
+			color:white;
+			@include background(image-url("http://www.icone-png.com/png/29/28550.png") no-repeat  50% 50%/50%, linear-gradient(top, $red 5%, #ed6363 100%));
 			background-color:$red;
 		}
 		&:active {

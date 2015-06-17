@@ -4,9 +4,9 @@
 
 <div class="l-container">
 	<div class="section sSelector" style="text-align:center;">
-			<a class="active panel-btn sbutton" data-check="tab1" href="#"><img src="http://www.comerciolocal.eu/pt/images/icone_cesta.gif" alt=""></a>
- 			<a class="panel-btn sbutton" data-check="tab2" href="#"><img src="http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/256/shop-icon.png" alt=""></a>
-			<a class="panel-btn sbutton" data-check="tab3" href="#"><img src="http://www.icone-png.com/png/29/28550.png" alt=""></a>
+			<a class="active panel-btn sbutton1" data-check="tab1" href="#"></a>
+ 			<a class="panel-btn sbutton2" data-check="tab2" href="#"></a>
+			<a class="panel-btn sbutton3" data-check="tab3" href="#"></a>
 	</div>
 
 	<h2 class="text-left">36 240 résultats correspondent à votre recherche</h2>
