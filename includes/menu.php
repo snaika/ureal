@@ -11,6 +11,7 @@
 				        <li><a href="./login.php">Connexion</a></li>
 				        <li><a href="./userProfile.php">Mon Profil</a></li>
 				        <li><a href="./addProduct.php">Ajouter un produit</a></li>
+				        <li><a href="./createStore.php">Proposer un magasin</a></li>
 				        <li><a href="./contact.php">Contact</a></li>
 				    </ul>
 				</div>
