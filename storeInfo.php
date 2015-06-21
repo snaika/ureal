@@ -11,14 +11,13 @@
 			
 		</div>
 		<div class="store-summup col-md-9">
-			<ul>
-				<li>Adresse : Avenue de Verdun, 93120 Rosny /s Bois</li>
-				<li>Horaire :</li>
-				<li>du lundi  au vendredi 9h à 21h</li>
-				<li>le samedi - de 8h 22h</li><br>
-				<li>Telephone 01.89.34.76.35</li>
-			</ul>
-			<br>
+			<dl class="dl-horizontal">
+				<dt>Adresse :</dt> <dd>Avenue de Verdun, 93120 Rosny /s Bois</dd>
+				<dt>Horaire :</dt>
+				<dd>du lundi au vendredi 9h à 21h<br>
+				le samedi - de 8h 22h</li>
+				<dt>Telephone :</dt> <dd>01.89.34.76.35</dd>
+			</dl>
 
 			<div class="col-xs-12 obj-rate">
 	            <div class="col-xs-3 item-rating">

@@ -14,23 +14,23 @@
 				           <td>Carrefour Rosny 2</td>
 				           <td>50 m</td>
 				       </tr>
-				       <tr>
+				       <tr data-href="./storeInfo.php">
 				           <td>Cocci Market</td>
 				           <td>150 m</td>
 				       </tr>
-				       <tr>
+				       <tr data-href="./storeInfo.php">
 				           <td>Casino</td>
 				           <td>320 m</td>
 				       </tr>
-				       <tr>
+				       <tr data-href="./storeInfo.php">
 				           <td>AUDREY D BEAUTE </td>
 				           <td>1, 24 km</td>
 				       </tr>
-				       <tr>
+				       <tr data-href="./storeInfo.php">
 				           <td>CC Rosny 2</td>
 				           <td>2,1 km</td>
 				       </tr>
-				       <tr>
+				       <tr data-href="./storeInfo.php">
 				           <td>Le dauphin Bleu</td>
 				           <td>2,1 km</td>
 				       </tr>

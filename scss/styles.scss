@@ -5,6 +5,7 @@ $darkgrey : #363C43;
 $grey : #eaedf1;
 $lightgrey : #F7F7F7;
 $red : rgb(221, 67, 67);
+$lightred: #E44E4E;
 $horizontal-span : #F2F2F2;
 
 /* base */
@@ -30,3 +31,5 @@ $horizontal-span : #F2F2F2;
 @import "modules/search";
 @import "modules/button";
 @import "modules/searchSelector";
+@import "modules/submit-form";
+@import "modules/lists";

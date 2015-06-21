@@ -6,40 +6,58 @@
 <!-- login-form -->	
 
 <!-- strat-login-form -->	
-<div class="login-form">
+<div class="">
 <!-- start-form -->
-	<form class="login_form" action="#" method="post" name="contact_form">
-		<h1>Magasin</h1>
+	<h1>Proposer nous un magasin</h1>
+
+	<form class="form-horizontal submit-form login-form" action="#" method="post" id="contact_form">
 	    <ul>
-			<li><p>Remplissez le formulaire du magasin afin de pouvoir le retrouver sur notre site ! Notre équipe vérifiera son authenticité avant de la rendre disponible.</p><br/></li>
-	        <li>
-	            <input type="text" class="textbox2" name="name" placeholder="Nom du magasin" required/>
-	        </li>
-	        <li>
-	            <input type="text" name="address" class="textbox2" placeholder="Adresse">
-	        </li>
-	        <li>
-	            <input type="text" name="address_2" class="textbox2" placeholder="Complément d'adresse">
-	        </li>
-	        <li>
-	            <input type="text" name="postal_code" class="textbox2" placeholder="Code postal">
-	            <input type="text" name="city" class="textbox2" placeholder="Ville">
-	        </li>
-			<li>
-				<select name="country">
-					<option value="FRANCE">France</option>
-					<option value="GERMANY">Allemagne</option>
-					<option value="SPAIN">Espagne</option>
-				</select>
-			</li>
-	        <li>
-	            <input type="text" name="website" class="textbox2" placeholder="Adresse du site">
-	        </li>
-	        <li>
-	            <input type="text" name="company" class="textbox2" placeholder="Compagnie">
-	        </li>
+			<div class="form-group"><p>Remplissez le formulaire du magasin afin de pouvoir le retrouver sur notre site ! Notre équipe vérifiera son authenticité avant de la rendre disponible.</p><br/></div>
+	        <div class="form-group">
+	        	<label for="name" class="col-sm-2">Nom</label>
+				<div class="col-sm-9"><input type="text" class="form-control" id="name" placeholder="Nom du magasin" required/></div>
+			</div>
+	        <div class="form-group">
+	        	<label for="address" class="col-sm-2">Adresse</label>	        
+	            <div class="col-sm-9">
+	            	<input type="text" id="address" class="form-control" placeholder="Adresse">
+	            </div>
+	        </div>
+	        <div class="form-group">
+	        	<label for="address_2" class="col-sm-2">Complément</label>        
+	            <div class="col-sm-9">
+	            	<input type="text" id="address_2" class="form-control" placeholder="Complément d'adresse">
+	            </div>
+	        </div>
+	        <div class="form-group">
+	        	<label for="postal_code" class="col-sm-2">CP</label>	       
+	            <div class="col-sm-3">
+	            	<input type="text" id="postal_code" class="form-control" placeholder="Code postal">
+	            </div>
+				<div class="col-sm-1"></div>
+	        	<label for="city" class="col-sm-1">Ville</label>
+	            <div class="col-sm-4">
+	            	<input type="text" id="city" class="form-control" placeholder="Ville">
+	            </div>
+	        </div>	       
+			<div class="form-group">
+	        	<label for="country" class="col-sm-2">Pays</label>
+				<div class="col-sm-9">
+					<select id="country" class="form-control">
+						<option value="FRANCE">France</option>
+						<option value="GERMANY">Allemagne</option>
+						<option value="SPAIN">Espagne</option>
+					</select>
+				</div>
+			</div>
+	        <div class="form-group">
+	        	<label for="website" class="col-sm-2">Site</label>
+	            <div class="col-sm-9">
+	            	<input type="text" id="website" class="form-control" placeholder="http://site-web.com">
+	            </div>
+	        </div>
          </ul>
-       	 	<input type="submit" name="Validate" value="Valider"/>
+       	 	<input type="submit" id="Validate" value="Valider"/>
 	</form>
 <!-- end-form -->
 <!-- start-account -->

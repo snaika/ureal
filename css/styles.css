@@ -1922,3 +1922,71 @@ table tr[data-href] {
   position: relative;
   top: 1px;
 }
+
+/* line 3, ../scss/modules/submit-form.scss */
+.submit-form input[type="submit"] {
+  margin: 5% auto;
+  width: 50%;
+  display: block;
+  background-color: #dd4343;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  padding: 1%;
+  color: white;
+}
+/* line 12, ../scss/modules/submit-form.scss */
+.submit-form input[type="submit"]:hover {
+  background-color: #E44E4E;
+}
+/* line 18, ../scss/modules/submit-form.scss */
+.submit-form .form-group {
+  margin-bottom: 3%;
+}
+
+/* line 1, ../scss/modules/lists.scss */
+.products-list {
+  padding: 2%;
+}
+/* line 4, ../scss/modules/lists.scss */
+.products-list div {
+  overflow: hidden;
+}
+/* line 5, ../scss/modules/lists.scss */
+.products-list dt {
+  font-size: 1.2em;
+}
+/* line 6, ../scss/modules/lists.scss */
+.products-list .product-row {
+  padding: 1% 0;
+  height: 150px;
+  border-bottom: 1px solid lightgray;
+}
+/* line 15, ../scss/modules/lists.scss */
+.products-list .product-img {
+  height: 100%;
+  text-align: center;
+}
+/* line 19, ../scss/modules/lists.scss */
+.products-list .product-img img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+  max-width: 90%;
+  max-height: 100%;
+}
+/* line 29, ../scss/modules/lists.scss */
+.products-list .product-price span {
+  display: block;
+  margin: 25%;
+}
+/* line 35, ../scss/modules/lists.scss */
+.products-list .product-remove {
+  height: 100%;
+  background: url(http://fr.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211771352.png) no-repeat 50% 50%/30%, none;
+}
+/* line 38, ../scss/modules/lists.scss */
+.products-list .product-remove:hover {
+  background: url(http://fr.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211771352.png) no-repeat 50% 50%/40%, none;
+}
