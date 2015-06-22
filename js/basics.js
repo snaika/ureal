@@ -2,7 +2,7 @@
 /* multi table ------------------*/
 
 $(document).ready(function(){
-    $('table tr').click(function(){
+    $('.clickable').click(function(){
         window.location = $(this).data('href');
         return false;
     });

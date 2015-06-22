@@ -120,12 +120,12 @@
 
 	<!-- product-caracteristics -->
 	<div class="section">
-		<div class="col-md-3">
+		<div class="col-md-3"  id="product-tab">
 			<ul class="nav nav-pills nav-stacked">
-				<li role="presentation" class="active panel-btn" data-check="tab1"><a href="#">Caratéristique</a></li>
-				<li role="presentation" class="panel-btn" data-check="tab2"><a href="#">Description</a></li>
-				<li role="presentation" class="panel-btn" data-check="tab3"><a href="#">Avis</a></li>
-				<li role="presentation" class="panel-btn" data-check="tab4"><a href="#">Magasins</a></li>
+				<li role="presentation" class="active panel-btn" data-check="tab1"><a href="#product-tab">Caratéristique</a></li>
+				<li role="presentation" class="panel-btn" data-check="tab2"><a href="#product-tab">Description</a></li>
+				<li role="presentation" class="panel-btn" data-check="tab3"><a href="#product-tab">Avis</a></li>
+				<li role="presentation" class="panel-btn" data-check="tab4"><a href="#product-tab">Magasins</a></li>
 			</ul>
 		</div>
 		<div class="col-md-9">

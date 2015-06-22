@@ -10,27 +10,27 @@
 				<table class="table table-bordered">
 				           <th>Nom</th>
 				           <th>Distance</th>
-				        <tr data-href="./storeInfo.php">
+				        <tr data-href="./storeInfo.php" class="clickable">
 				           <td>Carrefour Rosny 2</td>
 				           <td>50 m</td>
 				       </tr>
-				       <tr data-href="./storeInfo.php">
+				       <tr data-href="./storeInfo.php" class="clickable">
 				           <td>Cocci Market</td>
 				           <td>150 m</td>
 				       </tr>
-				       <tr data-href="./storeInfo.php">
+				       <tr data-href="./storeInfo.php" class="clickable">
 				           <td>Casino</td>
 				           <td>320 m</td>
 				       </tr>
-				       <tr data-href="./storeInfo.php">
+				       <tr data-href="./storeInfo.php" class="clickable">
 				           <td>AUDREY D BEAUTE </td>
 				           <td>1, 24 km</td>
 				       </tr>
-				       <tr data-href="./storeInfo.php">
+				       <tr data-href="./storeInfo.php" class="clickable">
 				           <td>CC Rosny 2</td>
 				           <td>2,1 km</td>
 				       </tr>
-				       <tr data-href="./storeInfo.php">
+				       <tr data-href="./storeInfo.php" class="clickable">
 				           <td>Le dauphin Bleu</td>
 				           <td>2,1 km</td>
 				       </tr>

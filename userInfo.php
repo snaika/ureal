@@ -46,12 +46,12 @@
 
 	<!-- product-caracteristics -->
 	<div class="section">
-		<div class="col-md-3">
+		<div class="col-md-3" id="panel-tab">
 			<ul class="nav nav-pills nav-stacked">
-				<li role="presentation" class="active panel-btn" data-check="tab1"><a href="#">Description</a></li>
-				<li role="presentation" class="panel-btn" data-check="tab2"><a href="#">Ses produits</a></li>
-				<li role="presentation" class="panel-btn" data-check="tab3"><a href="#">Avis</a></li>
-				<li role="presentation" class="panel-btn" data-check="tab4"><a href="#">Carte</a></li>
+				<li role="presentation" class="active panel-btn" data-check="tab1"><a href="#panel-tab">Description</a></li>
+				<li role="presentation" class="panel-btn" data-check="tab2"><a href="#panel-tab">Ses produits</a></li>
+				<li role="presentation" class="panel-btn" data-check="tab3"><a href="#panel-tab">Avis</a></li>
+				<li role="presentation" class="panel-btn" data-check="tab4"><a href="#panel-tab">Carte</a></li>
 			</ul>
 		</div>
 		<div class="col-md-9">

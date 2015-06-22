@@ -9,7 +9,7 @@
 		<table class="table">
 	      <caption>ci-dessous, l'intégralité de vos listes depuis votre arrivé chez nous</caption>
 	      <thead>
-	        <tr data-href="./listDisplay.php">
+	        <tr data-href="#">
 	          <th>#</th>
 	          <th>Nom</th>
 	          <th>Création</th>
@@ -25,7 +25,7 @@
 	          <td>21-06-2015</td>
 	          <td>Publique</td>
 	        </tr>
-	        <tr>
+	        <tr data-href="./listDisplay.php">
 	          <th scope="row">2</th>
 	          <td>Mes envies</td>
 	          <td>10-06-2015</td>
