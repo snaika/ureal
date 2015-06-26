@@ -509,6 +509,7 @@ table {
 .section {
   padding: 12px;
   position: relative;
+  margin-bottom: 2%;
 }
 
 /* modules */
@@ -1994,4 +1995,17 @@ table tr[data-href] {
 /* line 38, ../scss/modules/lists.scss */
 .products-list .product-remove:hover {
   background: url(http://fr.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211771352.png) no-repeat 50% 50%/40%, none;
+}
+
+/* line 44, ../scss/modules/lists.scss */
+.list-management {
+  text-align: center;
+}
+/* line 47, ../scss/modules/lists.scss */
+.list-management .list-manager, .list-management .managerlink {
+  display: none;
+}
+/* line 51, ../scss/modules/lists.scss */
+.list-management .active {
+  display: inline;
 }

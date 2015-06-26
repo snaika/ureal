@@ -6,24 +6,36 @@
 	<h1 id="list-name">Ma liste</h1>
 	<h2>Mes envies</h2>
 	<div class="list-management">
-	<form class="form-inline" action="listDisplay_submit" method="get" accept-charset="utf-8">
-		  <div class="form-group">
-		    <label class="sr-only" for="exampleInputEmail3">Nom</label>
-		    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Modifier nom">
-		  </div>
-	      	<div class="form-group">
-	        	<label for="visibility" class="sr-only">Visibilité</label>
-				<div class="col-sm-3">
-					<select id="visibility" class="form-control" requiered>
-						<option value="cat1">Publique</option>
-						<option value="cat2">Privée</option>
-					</select>
-				</div>
-			</div>
-		  <button id="remove-list" class="btn btn-default">Supprimer ma liste</button>
-		  <button type="submit" class="btn btn-primary">Valider</button>
-	</form>
-
+	<div class="section">
+		<div class="col-xs-6">
+			<a href="#form-inline" class="managerlink active" >modifier la liste</a>
+			<form class="form-inline list-manager" action="listDisplay_submit" method="get" accept-charset="utf-8">
+				  <div class="form-group">
+				    <label class="sr-only" for="exampleInputEmail3">Nom</label>
+				    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Modifier nom">
+				  </div>
+			      	<div class="form-group">
+			        	<label for="visibility" class="sr-only">Visibilité</label>
+						<div class="col-sm-3">
+							<select id="visibility" class="form-control" requiered>
+								<option value="cat1">Publique</option>
+								<option value="cat2">Privée</option>
+							</select>
+						</div>
+					</div>
+				  <button id="remove-list" class="btn btn-default">Supprimer ma liste</button>
+				  <button type="submit" class="btn btn-primary">Valider</button>
+			</form>
+		</div>
+		<div class="col-xs-6">
+			<ul class="list-inline">
+			    <li>Trier par : </li>
+			    <li><a href="#">Date</a></li>
+			    <li><a href="#">Prix</a></li>
+			    <li><a href="#">Nom</a></li>
+			</ul>
+		</div>
+	</div>
 	</div>
 	<div class="products-list">
 		<div class="row product-row">

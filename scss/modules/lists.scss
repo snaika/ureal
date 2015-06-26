@@ -40,3 +40,16 @@
 		}
 	}
 }
+
+.list-management{
+	text-align: center;
+	
+	.list-manager, .managerlink{
+		display: none;
+
+	}
+	.active{
+		display: inline;
+	}
+
+}

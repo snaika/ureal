@@ -16,7 +16,13 @@ $(".panel-btn").click(function(){
 	$(this).addClass('active');	
 })
 
-
+$(".managerlink").click(function(){
+	$(('.active')).fadeOut(function(){
+		$('.list-manager').fadeIn();
+	});
+	$(this).removeClass('active');
+	$('.list-manager').addClass('active');	
+})
 
 });
 
