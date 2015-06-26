@@ -41,7 +41,7 @@
 			        <li><a href="./index.php" class="menu-item is-active">Accueil</a></li><!--
 			     --><li><a href="./categories.php" class="menu-item">Produit</a></li><!--
 			     --><li><a href="./stores.php" class="menu-item">Magasin</a></li>
-			     	<li><a href="./contact.php" class="menu-item">À Propos</a></li>
+			     	<li><a href="./contact.php" class="menu-item">Contactez-nous</a></li>
 			     	<li><a href="#" class="menu-item-dl">Download App</a></li>
 		    	</ul>
 		    <div>

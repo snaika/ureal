@@ -61,6 +61,11 @@ display: table-cell;
 		text-align: center;
 	}
 
+	.product-title{
+		max-height: 50px;
+  		overflow: hidden;
+	}
+
 	.product-rate{
 		font-size: 0.7em;
 		pointer-events: none;

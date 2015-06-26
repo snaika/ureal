@@ -18,21 +18,21 @@
 	        </tr>
 	      </thead>
 	      <tbody>
-	        <tr data-href="./listDisplay.php">
+	        <tr data-href="./listDisplay.php" class="clickable">
 	          <th scope="row">1</th>
 	          <td>A vendre</td>
 	          <td>21-06-2015</td>
 	          <td>21-06-2015</td>
 	          <td>Publique</td>
 	        </tr>
-	        <tr data-href="./listDisplay.php">
+	        <tr data-href="./listDisplay.php" class="clickable">
 	          <th scope="row">2</th>
 	          <td>Mes envies</td>
 	          <td>10-06-2015</td>
 	          <td>18-06-2015</td>
 	          <td>Privée</td>
 	        </tr>
-	        <tr data-href="./listDisplay.php">
+	        <tr data-href="./listDisplay.php" class="clickable">
 	          <th scope="row">3</th>
 	          <td>Course de la semaine</td>
 	          <td>13-06-2015</td>

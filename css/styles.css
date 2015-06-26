@@ -1739,24 +1739,29 @@ table tr[data-href] {
   text-align: center;
 }
 /* line 64, ../scss/modules/search.scss */
+.search-res-product .product-title {
+  max-height: 50px;
+  overflow: hidden;
+}
+/* line 69, ../scss/modules/search.scss */
 .search-res-product .product-rate {
   font-size: 0.7em;
   pointer-events: none;
   cursor: default;
 }
-/* line 70, ../scss/modules/search.scss */
+/* line 75, ../scss/modules/search.scss */
 .search-res-product .product-interact {
   height: 30px;
   min-width: 100%;
 }
-/* line 74, ../scss/modules/search.scss */
+/* line 79, ../scss/modules/search.scss */
 .search-res-product .product-interact img {
   height: 20px;
   margin: 0 10px;
   width: auto;
 }
 
-/* line 90, ../scss/modules/search.scss */
+/* line 95, ../scss/modules/search.scss */
 .search-res-product-thumbnail {
   height: 150px;
   width: 100%;
