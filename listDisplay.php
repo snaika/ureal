@@ -7,7 +7,7 @@
 	<h2>Mes envies</h2>
 	<div class="list-management">
 	<div class="section">
-		<div class="col-xs-6">
+		<div class="col-xs-7">
 			<a href="#form-inline" class="managerlink active" >modifier la liste</a>
 			<form class="form-inline list-manager" action="listDisplay_submit" method="get" accept-charset="utf-8">
 				  <div class="form-group">
@@ -27,7 +27,7 @@
 				  <button type="submit" class="btn btn-primary">Valider</button>
 			</form>
 		</div>
-		<div class="col-xs-6">
+		<div class="col-xs-5">
 			<ul class="list-inline">
 			    <li>Trier par : </li>
 			    <li><a href="#">Date</a></li>

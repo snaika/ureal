@@ -1954,27 +1954,28 @@ table tr[data-href] {
 /* line 1, ../scss/modules/lists.scss */
 .products-list {
   padding: 2%;
+  width: 100%;
 }
-/* line 4, ../scss/modules/lists.scss */
+/* line 5, ../scss/modules/lists.scss */
 .products-list div {
   overflow: hidden;
 }
-/* line 5, ../scss/modules/lists.scss */
+/* line 6, ../scss/modules/lists.scss */
 .products-list dt {
   font-size: 1.2em;
 }
-/* line 6, ../scss/modules/lists.scss */
+/* line 7, ../scss/modules/lists.scss */
 .products-list .product-row {
   padding: 1% 0;
   height: 150px;
   border-bottom: 1px solid lightgray;
 }
-/* line 15, ../scss/modules/lists.scss */
+/* line 16, ../scss/modules/lists.scss */
 .products-list .product-img {
   height: 100%;
   text-align: center;
 }
-/* line 19, ../scss/modules/lists.scss */
+/* line 20, ../scss/modules/lists.scss */
 .products-list .product-img img {
   display: inline-block;
   vertical-align: middle;
@@ -1982,30 +1983,31 @@ table tr[data-href] {
   max-width: 90%;
   max-height: 100%;
 }
-/* line 29, ../scss/modules/lists.scss */
+/* line 30, ../scss/modules/lists.scss */
 .products-list .product-price span {
   display: block;
   margin: 25%;
 }
-/* line 35, ../scss/modules/lists.scss */
+/* line 36, ../scss/modules/lists.scss */
 .products-list .product-remove {
   height: 100%;
   background: url(http://fr.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211771352.png) no-repeat 50% 50%/30%, none;
 }
-/* line 38, ../scss/modules/lists.scss */
+/* line 39, ../scss/modules/lists.scss */
 .products-list .product-remove:hover {
   background: url(http://fr.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211771352.png) no-repeat 50% 50%/40%, none;
 }
 
-/* line 44, ../scss/modules/lists.scss */
+/* line 45, ../scss/modules/lists.scss */
 .list-management {
   text-align: center;
 }
-/* line 47, ../scss/modules/lists.scss */
+/* line 48, ../scss/modules/lists.scss */
 .list-management .list-manager, .list-management .managerlink {
   display: none;
 }
-/* line 51, ../scss/modules/lists.scss */
+/* line 52, ../scss/modules/lists.scss */
 .list-management .active {
   display: inline;
+  width: 100%;
 }

@@ -1,5 +1,6 @@
 .products-list{
 	padding: 2%;
+	width: 100%;
 //		background-color: red;
 	div{overflow: hidden;}
 	dt{font-size: 1.2em;}
@@ -50,6 +51,7 @@
 	}
 	.active{
 		display: inline;
+  		width: 100%;
 	}
 
 }

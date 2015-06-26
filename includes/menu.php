@@ -30,7 +30,7 @@
 		<div class="header-top">
 			<div class="l-container">
 				<div class="header-baseline">
-					<div class="header-logo"><img src="./img/header-logo.png" alt="up Real"></div>
+					<div class="header-logo"><a href="/"><img src="./img/header-logo.png" alt="up Real"></a></div>
 					<div class="baseline"> <a href="#" class="dlButton">Download App</a> </div>
 				</div>
 		</div>
@@ -38,7 +38,7 @@
 		<div class="header-menu" id="menubar">
 			<div class="l-container">
 				<ul>
-			        <li><a href="./index.php" class="menu-item is-active">Accueil</a></li><!--
+			        <li><a href="/" class="menu-item is-active">Accueil</a></li><!--
 			     --><li><a href="./categories.php" class="menu-item">Produit</a></li><!--
 			     --><li><a href="./stores.php" class="menu-item">Magasin</a></li>
 			     	<li><a href="./contact.php" class="menu-item">Contactez-nous</a></li>
