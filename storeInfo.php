@@ -6,11 +6,11 @@
 	<h2 class="text-left">Carrefour Rosny 2</h2>
 <div class="section">
 	<div class="row">
-		<div class="col-md-3 market-img">
+		<div class="col-xs-3 profil-picture">
 			<img src="http://static1.portal.carrefour.fr/sites/default/files/public/images/logo_default_new.png">	
 			
 		</div>
-		<div class="store-summup col-md-9">
+		<div class="store-summup col-xs-9">
 			<dl class="dl-horizontal">
 				<dt>Adresse :</dt> <dd>Avenue de Verdun, 93120 Rosny /s Bois</dd>
 				<dt>Horaire :</dt>
@@ -21,7 +21,7 @@
 
 			<div class="col-xs-12 obj-rate">
 	            <div class="col-xs-3 item-rating">
-	     			<input id="input-2c" class="rating" value='4.3' readonly="true" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+	     			<input id="input-2c" class="rating" value='4.3' min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
 	             </div>
 				<span class="col-xs-3 obj-finalrate">4,32/5 (47 avis)</span>
 				<div class="col-xs-5 thumbs-vote">
