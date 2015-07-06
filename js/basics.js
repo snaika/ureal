@@ -26,9 +26,12 @@ $(".managerlink").click(function(){
 
 
 $(".toHide").click(function(){
-	$(".toShow").switchClass('toShow', 'toHide');
+	$(this).parent().find(".toShow").switchClass('toShow', 'toHide');
+	$(this).parent().find("span").css("display", "none");
 	$(this).switchClass('toHide', 'toShow');
 })
+
+
 
 });
 
@@ -82,4 +85,18 @@ $(window).load(function() {
         	$(this).css("margin-top", "-"+(this.height/2)+"px");
         };
     })
+
+
+    $('.friend-thumb').find('img').each(function() {
+        var imgClass = (this.width / this.height < 1) ?  'tall' : 'wide';
+        $(this).addClass(imgClass);
+        if ($(this).hasClass('wide')) {
+        	$(this).css("margin-left", "-"+(this.width/2)+"px");
+        }
+        else{
+        	$(this).css("margin-left", "-"+(this.width/2)+"px");
+        	$(this).css("margin-top", "-"+(this.height/2)+"px");
+        };
+    })
+
 })

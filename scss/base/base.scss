@@ -48,6 +48,12 @@ li{
 
 .toHide{
 	visibility: visible;
+	cursor: pointer;
+	&:hover{
+		span{
+			visibility: visible;
+		}
+	}
 }
 
 .toShow{
