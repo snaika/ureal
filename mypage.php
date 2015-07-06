@@ -9,13 +9,13 @@
 	<div class="section user-edit">
 		<div class="row">
 			<div class="col-xs-3 profil-picture" id="profil-picture">
-				<a href="#" id="change-profil-thumb">
+				<a href='javascript:PopupCentrer("test.php",500,200,"menubar=no,scrollbars=no,titlebar=no,resizable=no,status=no,location=no,channelmode=yes,")' id="change-profil-thumb">
 					<img src="img/19694367.jpg">
 						<p>Modifier la photo</p>
 				</a>		
 			</div>
 
-			<div class="store-summup col-md-8">
+			<div class="store-summup col--8">
 	<h1 class="text-middle title">Jean Bonduel</h1>
 					<div class="toHide">
 						<p  id="desc">A la recherche de perles rares et autres. J'aime les années 80 et tout ce qui est rétro,
@@ -140,7 +140,7 @@
 
 
 <!-- friend thumnail start -->
-	<div class=" col-md-2 myfriend">
+	<div class=" col-xs-2 myfriend">
 
 		<a href="#"><img class="rm" src="http://icons.iconarchive.com/icons/visualpharm/must-have/256/Remove-icon.png" alt="remove button"></a>
 
@@ -156,7 +156,7 @@
 
 
 <!-- friend thumnail start -->
-	<div class=" col-md-2 myfriend">
+	<div class=" col-xs-2 myfriend">
 
 		<a href="#"><img class="rm" src="http://icons.iconarchive.com/icons/visualpharm/must-have/256/Remove-icon.png" alt="remove button"></a>
 
@@ -172,7 +172,7 @@
 
 
 <!-- friend thumnail start -->
-	<div class=" col-md-2 myfriend">
+	<div class=" col-xs-2 myfriend">
 
 		<a href="#"><img class="rm" src="http://icons.iconarchive.com/icons/visualpharm/must-have/256/Remove-icon.png" alt="remove button"></a>
 

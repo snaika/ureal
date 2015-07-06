@@ -9,7 +9,7 @@
 				    <button>Je suis UpReal &#9660;</button>
 				    <ul class="userbar-dropdown-menu">
 				        <li><a href="./login.php">Connexion</a></li>
-				        <li><a href="./userProfile.php">Mon Profil</a></li>
+				        <li><a href="./myPage.php">Mon Profil</a></li>
 				        <li><a href="./lists.php">Mes listes</a></li>
 				        <li><a href="./addProduct.php">Ajouter un produit</a></li>
 				        <li><a href="./createStore.php">Proposer un magasin</a></li>
