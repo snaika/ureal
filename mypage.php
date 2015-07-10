@@ -15,7 +15,7 @@
 				</a>		
 			</div>
 
-			<div class="store-summup col--8">
+			<div class="store-summup col-xs-8">
 	<h1 class="text-middle title">Jean Bonduel</h1>
 					<div class="toHide">
 						<p  id="desc">A la recherche de perles rares et autres. J'aime les années 80 et tout ce qui est rétro,
@@ -51,7 +51,7 @@
 		        	<label for="username" class="col-sm-2">Login</label>
 					<div class="col-sm-8">
 					 	<div class="toHide">
-					 		<p id="username">Jean Bon</p><span>cliquez pour modifier</span>
+					 		<p id="username">Jean Bonduel</p><span>cliquez pour modifier</span>
 					 	</div>
 					 	<input  type="text" class="form-control toShow" id="username" placeholder="Votre nom sur le site" />
 		  			</div>

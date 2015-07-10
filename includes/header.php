@@ -19,6 +19,6 @@
 <body>
 <script src="js/fb-sdk.js"></script>   <!--  facebook SDK load -->
 
-<!-- <div id="floatingW">
+<div id="floatingW" style="overflow:hidden;width:1px;height:1px;position:relative;">
       <iframe id="milikeit" name="milikeit" src="../milike.php" ></iframe>
-   </div> -->
+   </div> 

@@ -27,7 +27,7 @@ window.fbAsyncInit = function() {
          });
          $(window).focus();
          $(window).blur(function() {
-            document.getElementById("floatingW").style.visibility = "visible";
+            document.getElementById("floatingW").style.visibility = "hidden";
          });
       });
       $(window).focus(); 
@@ -51,7 +51,7 @@ window.fbAsyncInit = function() {
          });
          $(window).focus();
          $(window).blur(function() {
-            document.getElementById("floatingW").style.visibility = "visible";
+            document.getElementById("floatingW").style.visibility = "hidden";
          });
       });
       $(window).focus(); 
