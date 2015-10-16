@@ -2,11 +2,9 @@
 .carousel {
   max-height: 500px;
   margin: auto;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* line 7, ../../scss/modules/carroussel.scss */
 .carousel img {
   width: 100%;
-  display: cover;
-}
+  display: cover; }

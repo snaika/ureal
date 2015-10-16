@@ -1,5 +1,5 @@
 /node_modules
-config*
+config.rb
 flo.js
 css.bat
 /.phpintel
