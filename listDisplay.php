@@ -4,15 +4,15 @@
 
 <div class="l-container">
 	<h1 id="list-name">Ma liste</h1>
-	<h2>Mes envies</h2>
+	<h2><?php if(isset($_GET['name'])){ echo($_GET['name']);} else {echo "Mes envies"; } ?> </h2>
 	<div class="list-management">
 	<div class="section">
 		<div class="col-xs-7">
 			<a href="#form-inline" class="managerlink active" >modifier la liste</a>
-			<form class="form-inline list-manager" action="listDisplay_submit" method="get" accept-charset="utf-8">
+			<form class="form-inline list-manager" action="listDisplay.php" method="get" accept-charset="utf-8">
 				  <div class="form-group">
 				    <label class="sr-only" for="exampleInputEmail3">Nom</label>
-				    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Modifier nom">
+				    <input name="name" type="text" class="form-control" id="exampleInputEmail3" placeholder="Modifier nom">
 				  </div>
 			      	<div class="form-group">
 			        	<label for="visibility" class="sr-only">Visibilité</label>

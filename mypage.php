@@ -10,7 +10,7 @@
 		<div class="row">
 			<div class="col-xs-3 profil-picture" id="profil-picture">
 				<a href='javascript:PopupCentrer("test.php",500,200,"menubar=no,scrollbars=no,titlebar=no,resizable=no,status=no,location=no,channelmode=yes,")' id="change-profil-thumb">
-					<img src="img/19694367.jpg">
+					<img src="http://www.online-image-editor.com//styles/2014/images/example_image.png">
 						<p>Modifier la photo</p>
 				</a>		
 			</div>

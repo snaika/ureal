@@ -119,11 +119,11 @@
 		<div class="search-res-product">
 				<div class="search-res-product-thumbnail">
 				<span class="verticale-helper"></span>
-					<img src="http://static.dealabs.com/deal_image/54b4034b488764.07939445.png" alt="product-img">
+					<img src="http://www.hawaiisurf.com/blog/wp-content/uploads/2011/03/101009-Roller_Derby-riedell-R3-pack.jpg" alt="product-img">
 				</div>
-				<div class="product-price">7,50 €</div>
-				<div class="product-info">
-					<div class="product-title">Pack Coca-Cola 1.5L x 8</div>
+				<div class="product-price">50€</div>
+				</a><div class="product-info"><a href="./productInfo.php">
+					<div class="product-title">Roller Riedell R3</div>
 					<div class="product-rate">
 						      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
 					</div>
@@ -145,11 +145,11 @@
 		<div class="search-res-product">
 				<div class="search-res-product-thumbnail">
 				<span class="verticale-helper"></span>
-					<img src="http://static.dealabs.com/deal_image/54b4034b488764.07939445.png" alt="product-img">
+					<img src="https://psmedia.playstation.com/is/image/psmedia/ps4-system-imageblock-us-13jun14?$TwoColumn_Image$" alt="product-img">
 				</div>
-				<div class="product-price">7,50 €</div>
-				<div class="product-info">
-					<div class="product-title">Pack Coca-Cola 1.5L x 8</div>
+				<div class="product-price">200€</div>
+				</a><div class="product-info"><a href="./productInfo.php">
+					<div class="product-title">Playstation 4</div>
 					<div class="product-rate">
 						      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
 					</div>
@@ -171,11 +171,11 @@
 		<div class="search-res-product">
 				<div class="search-res-product-thumbnail">
 				<span class="verticale-helper"></span>
-					<img src="http://static.dealabs.com/deal_image/54b4034b488764.07939445.png" alt="product-img">
+					<img src="http://www.frdechateaubriand.net/CMS/wp-content/uploads/2015/03/fourniture-scolaires-pas-cher-Cahier_piqure_165x210-72pages-marge_4e1b1cd97c908.gif" alt="product-img">
 				</div>
-				<div class="product-price">7,50 €</div>
-				<div class="product-info">
-					<div class="product-title">Pack Coca-Cola 1.5L x 8</div>
+				<div class="product-price">4,50 €</div>
+				</a><div class="product-info"><a href="./productInfo.php">
+					<div class="product-title">lot Cahier Clairefontaine x5</div>
 					<div class="product-rate">
 						      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
 					</div>
@@ -197,11 +197,11 @@
 		<div class="search-res-product">
 				<div class="search-res-product-thumbnail">
 				<span class="verticale-helper"></span>
-					<img src="http://static.dealabs.com/deal_image/54b4034b488764.07939445.png" alt="product-img">
+					<img src="http://www.vous-magazine.com/images/190-montblanc.jpg" alt="product-img">
 				</div>
-				<div class="product-price">7,50 €</div>
-				<div class="product-info">
-					<div class="product-title">Pack Coca-Cola 1.5L x 8</div>
+				<div class="product-price">62 €</div>
+				</a><div class="product-info"><a href="./productInfo.php">
+					<div class="product-title">Stylo Plume - Mont Blanc 7</div>
 					<div class="product-rate">
 						      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
 					</div>
@@ -223,11 +223,11 @@
 		<div class="search-res-product">
 				<div class="search-res-product-thumbnail">
 				<span class="verticale-helper"></span>
-					<img src="http://static.dealabs.com/deal_image/54b4034b488764.07939445.png" alt="product-img">
+					<img src="http://www.lacollectionbyvirginie.com/images/_thumbs/S.MAR.B.CHLO.MM_location-sac-luxe-chloe-marcie-1-detail_prod_big.jpg" alt="product-img">
 				</div>
-				<div class="product-price">7,50 €</div>
-				<div class="product-info">
-					<div class="product-title">Pack Coca-Cola 1.5L x 8</div>
+				<div class="product-price">200 €</div>
+				</a><div class="product-info"><a href="./productInfo.php">
+					<div class="product-title">Sac Chloë cuire retourné</div>
 					<div class="product-rate">
 						      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
 					</div>

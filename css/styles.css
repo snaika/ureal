@@ -1169,20 +1169,26 @@ table tr[data-href] {
   .items-list .item-box {
     height: 100%;
     min-height: 100px;
+    max-height: 150px;
     padding: 0 10px;
     border-right: 2px solid #D0D2D5; }
-    /* line 13, ../scss/modules/items-list.scss */
+    /* line 14, ../scss/modules/items-list.scss */
     .items-list .item-box:last-child {
       border: none; }
-  /* line 17, ../scss/modules/items-list.scss */
+  /* line 18, ../scss/modules/items-list.scss */
   .items-list .item-thumb {
     width: 100%;
-    vertical-align: middle; }
-  /* line 22, ../scss/modules/items-list.scss */
+    vertical-align: middle;
+    width: auto;
+    vertical-align: middle;
+    height: auto;
+    max-height: 100px;
+    max-width: 100%; }
+  /* line 29, ../scss/modules/items-list.scss */
   .items-list .item-name {
     font-weight: bold;
     margin-bottom: 20px; }
-  /* line 26, ../scss/modules/items-list.scss */
+  /* line 33, ../scss/modules/items-list.scss */
   .items-list .item-price {
     display: block;
     width: 150px;
@@ -1193,17 +1199,17 @@ table tr[data-href] {
     color: white;
     font-size: 20px;
     text-align: center; }
-  /* line 37, ../scss/modules/items-list.scss */
+  /* line 44, ../scss/modules/items-list.scss */
   .items-list .link-container {
     margin-top: 20px;
     /*     a{
           color: lightblue;
         } */ }
-  /* line 43, ../scss/modules/items-list.scss */
+  /* line 50, ../scss/modules/items-list.scss */
   .items-list h3 {
     margin: 0 0 15px -10px;
     color: gray; }
-  /* line 47, ../scss/modules/items-list.scss */
+  /* line 54, ../scss/modules/items-list.scss */
   .items-list .item-list-thumb {
     height: 100px; }
 
@@ -1499,33 +1505,34 @@ table tr[data-href] {
 .search-tab > div {
   display: table-cell; }
 
-/* line 19, ../scss/modules/search.scss */
+/* line 18, ../scss/modules/search.scss */
 .search-nav {
   padding: 0 20px;
   background-color: #eaedf1;
   display: table-cell; }
 
-/* line 27, ../scss/modules/search.scss */
+/* line 26, ../scss/modules/search.scss */
 .search-res {
   background-color: white;
   padding: 20px;
   display: table-cell; }
 
 /* Search Result Product thumbnail*/
-/* line 37, ../scss/modules/search.scss */
+/* line 36, ../scss/modules/search.scss */
 .search-res-product {
   border: 1px solid #eaedf1;
   height: 320px;
   overflow: hidden;
   margin-bottom: 10%;
-  float: left; }
-  /* line 38, ../scss/modules/search.scss */
+  float: left;
+  width: 100%; }
+  /* line 37, ../scss/modules/search.scss */
   .search-res-product img {
     width: auto;
     height: auto;
     max-height: 150px;
     max-width: 95%; }
-  /* line 46, ../scss/modules/search.scss */
+  /* line 45, ../scss/modules/search.scss */
   .search-res-product .product-price {
     width: 100%;
     padding: 1%;
@@ -1534,24 +1541,24 @@ table tr[data-href] {
     text-align: center;
     background-color: #dd4343;
     color: white; }
-  /* line 59, ../scss/modules/search.scss */
+  /* line 58, ../scss/modules/search.scss */
   .search-res-product .product-info {
     padding: 3%;
     text-align: center; }
-  /* line 64, ../scss/modules/search.scss */
+  /* line 63, ../scss/modules/search.scss */
   .search-res-product .product-title {
     max-height: 50px;
     overflow: hidden; }
-  /* line 69, ../scss/modules/search.scss */
+  /* line 68, ../scss/modules/search.scss */
   .search-res-product .product-rate {
     font-size: 0.7em;
     pointer-events: none;
     cursor: default; }
-  /* line 75, ../scss/modules/search.scss */
+  /* line 74, ../scss/modules/search.scss */
   .search-res-product .product-interact {
     height: 30px;
     min-width: 100%; }
-    /* line 79, ../scss/modules/search.scss */
+    /* line 78, ../scss/modules/search.scss */
     .search-res-product .product-interact img {
       height: 20px;
       margin: 0 10px;
