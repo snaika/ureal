@@ -13,11 +13,11 @@
 	<script src="js/basics.js"></script>
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 	<script>$(function(){$("#userbar").sticky({topSpacing:0});$("#menubar").sticky({topSpacing:35});});</script>
-	<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script> 	
+	  <link rel="stylesheet" href="css/styles.css">
 
-<!-- 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script> 
- -->
+
 </head>
 <body>
 <script src="js/fb-sdk.js"></script>   <!--  facebook SDK load -->
