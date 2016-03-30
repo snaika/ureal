@@ -14,9 +14,9 @@
         </div>
       </li>
             <li>
-        <img src="img/slider/Flyers2.2.jpg"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Up real sera sur le forum EIP les 26 et 27 novembre</h3>
+        <img src="img/slider/Flyers2.0.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>les flyers du forum EIP, 26,27/11</h3>
           <h5 class="light grey-text text-lighten-3">News EIP</h5>
         </div>
       </li>
@@ -82,7 +82,7 @@ Kinder bueno x6                </p>
               </div>
               <div class="col-xs-8">
                 <p class="item-name">
-                  Tablette Milka
+                  Petit Déjeuner de Lu
                 </p>
                 <div class="item-rating">
         <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">

@@ -18,10 +18,10 @@
 						<div class="col-xs-3 search-nav">	<!-- colonne de navigation -->
 							<h2>Catégorie</h2>
 							<ul>
-							    <li>Alimentaire <span id="cat-n-product">(1)</span></li>
-							    <li>Boissons <span id="cat-n-product">(1)</span></li>
-							    <li>Maison <span id="cat-n-product">(1)</span></li>
-							    <li>Grandes marques <span id="cat-n-product">(1)</span></li>
+<!-- 							    <li>Alimentaire <span id="cat-n-product">(1)</span></li> -->
+							    <li>Boissons <span id="cat-n-product">(8)</span></li>
+<!-- 							    <li>Maison <span id="cat-n-product">(1)</span></li>
+<li>Grandes marques <span id="cat-n-product">(1)</span></li> -->
 							</ul>
 
 							<h2>Prix</h2>
@@ -78,11 +78,11 @@
 								<div class="search-res-product">
 										<div class="search-res-product-thumbnail">
 										<span class="verticale-helper"></span>
-											<img src="http://image.darty.com/petit_electromenager/aspirateur/nettoyeur_vapeur/black_decker_fsm1630_steam_mop_d1303273721337A_142632770.jpg" alt="product-img">
+											<img src="http://i4.mirror.co.uk/incoming/article3672097.ece/ALTERNATES/s615b/EMBARGOED-0001-WED-11th-Coca-Cola-Life.jpg" alt="product-img">
 										</div>
-										<div class="product-price">264, 95 €</div>
+										<div class="product-price">0,80 €</div>
 										<div class="product-info">
-											<div class="product-title">BLACK & DECKER FSM1630 STEAM MOP</div>
+											<div class="product-title">Coca-Cola Life 33cl</div>
 											<div class="product-rate">
 												      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
 											</div>
@@ -96,11 +96,147 @@
 										</div>
 								</div>
 							</div>
-	
-						</div>		
-							<!-- colonne des produits -->
-			
-						
+									<!-- vignette de produit -->							<div class="col-xs-3 search-products-thumbnail">	<!-- vignette de produit -->
+								<a href="./productInfo.php">
+								<div class="search-res-product">
+										<div class="search-res-product-thumbnail">
+										<span class="verticale-helper"></span>
+											<img src="http://i2.cdscdn.com/pdt2/b/1/2/1/700x700/mon284970pcb12/rw/monster-energy-original-50cl-x12.jpg" alt="product-img">
+										</div>
+										<div class="product-price">20 €</div>
+										<div class="product-info">
+											<div class="product-title">Pack Monster 0.50L x 12</div>
+											<div class="product-rate">
+												      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+											</div>
+											</a>
+											<div class="product-interact">
+												<span class="verticale-helper"></span>
+												<img src="https://cdn1.iconfinder.com/data/icons/freeline/32/add_cross_new_plus_create-128.png" alt="">  <!-- donner id pour ajout -->
+												<img src="https://cdn4.iconfinder.com/data/icons/48-bubbles/48/33.Thumbs-Up-128.png" alt="">	<!-- donner id pour like -->
+												<img src="https://cdn3.iconfinder.com/data/icons/glypho-free/64/share-128.png" alt="">	<!-- si module de partage RS ? -->
+											</div>
+										</div>
+								</div>
+							</div>
+									<!-- vignette de produit -->							<div class="col-xs-3 search-products-thumbnail">	<!-- vignette de produit -->
+								<a href="./productInfo.php">
+								<div class="search-res-product">
+										<div class="search-res-product-thumbnail">
+										<span class="verticale-helper"></span>
+											<img src="http://isokoo.com/wp-content/uploads/2015/05/redbull.jpg" alt="product-img">
+										</div>
+										<div class="product-price">1,60 €</div>
+										<div class="product-info">
+											<div class="product-title">Redbull Classique</div>
+											<div class="product-rate">
+												      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+											</div>
+											</a>
+											<div class="product-interact">
+												<span class="verticale-helper"></span>
+												<img src="https://cdn1.iconfinder.com/data/icons/freeline/32/add_cross_new_plus_create-128.png" alt="">  <!-- donner id pour ajout -->
+												<img src="https://cdn4.iconfinder.com/data/icons/48-bubbles/48/33.Thumbs-Up-128.png" alt="">	<!-- donner id pour like -->
+												<img src="https://cdn3.iconfinder.com/data/icons/glypho-free/64/share-128.png" alt="">	<!-- si module de partage RS ? -->
+											</div>
+										</div>
+								</div>
+							</div>
+									<!-- vignette de produit -->							<div class="col-xs-3 search-products-thumbnail">	<!-- vignette de produit -->
+								<a href="./productInfo.php">
+								<div class="search-res-product">
+										<div class="search-res-product-thumbnail">
+										<span class="verticale-helper"></span>
+											<img src="http://www.maliburumdrinks.com/Global/Global/Products/New%20Images%20130219/Big%20image/MALIBU-ORIGINAL.jpg" alt="product-img">
+										</div>
+										<div class="product-price">14,80 €</div>
+										<div class="product-info">
+											<div class="product-title">Malibu 1L</div>
+											<div class="product-rate">
+												      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+											</div>
+											</a>
+											<div class="product-interact">
+												<span class="verticale-helper"></span>
+												<img src="https://cdn1.iconfinder.com/data/icons/freeline/32/add_cross_new_plus_create-128.png" alt="">  <!-- donner id pour ajout -->
+												<img src="https://cdn4.iconfinder.com/data/icons/48-bubbles/48/33.Thumbs-Up-128.png" alt="">	<!-- donner id pour like -->
+												<img src="https://cdn3.iconfinder.com/data/icons/glypho-free/64/share-128.png" alt="">	<!-- si module de partage RS ? -->
+											</div>
+										</div>
+								</div>
+							</div>
+									<!-- vignette de produit -->							<div class="col-xs-3 search-products-thumbnail">	<!-- vignette de produit -->
+								<a href="./productInfo.php">
+								<div class="search-res-product">
+										<div class="search-res-product-thumbnail">
+										<span class="verticale-helper"></span>
+											<img src="http://www.evian.fr/_tmp/evian_evian_460_222_babybox.jpg" alt="product-img">
+										</div>
+										<div class="product-price">4,50 €</div>
+										<div class="product-info">
+											<div class="product-title">Pack Evian babybox 33clL x 12</div>
+											<div class="product-rate">
+												      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+											</div>
+											</a>
+											<div class="product-interact">
+												<span class="verticale-helper"></span>
+												<img src="https://cdn1.iconfinder.com/data/icons/freeline/32/add_cross_new_plus_create-128.png" alt="">  <!-- donner id pour ajout -->
+												<img src="https://cdn4.iconfinder.com/data/icons/48-bubbles/48/33.Thumbs-Up-128.png" alt="">	<!-- donner id pour like -->
+												<img src="https://cdn3.iconfinder.com/data/icons/glypho-free/64/share-128.png" alt="">	<!-- si module de partage RS ? -->
+											</div>
+										</div>
+								</div>
+							</div>
+									<!-- vignette de produit -->							<div class="col-xs-3 search-products-thumbnail">	<!-- vignette de produit -->
+								<a href="./productInfo.php">
+								<div class="search-res-product">
+										<div class="search-res-product-thumbnail">
+										<span class="verticale-helper"></span>
+											<img src="http://www.dollzindubai.com/wp-content/uploads/2013/02/evian-bottles-designers.jpg" alt="product-img">
+										</div>
+										<div class="product-price">20,50 €</div>
+										<div class="product-info">
+											<div class="product-title">Bouteille design Evian by JPG</div>
+											<div class="product-rate">
+												      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+											</div>
+											</a>
+											<div class="product-interact">
+												<span class="verticale-helper"></span>
+												<img src="https://cdn1.iconfinder.com/data/icons/freeline/32/add_cross_new_plus_create-128.png" alt="">  <!-- donner id pour ajout -->
+												<img src="https://cdn4.iconfinder.com/data/icons/48-bubbles/48/33.Thumbs-Up-128.png" alt="">	<!-- donner id pour like -->
+												<img src="https://cdn3.iconfinder.com/data/icons/glypho-free/64/share-128.png" alt="">	<!-- si module de partage RS ? -->
+											</div>
+										</div>
+								</div>
+							</div>
+									<!-- vignette de produit -->
+
+									<!-- vignette de produit -->							<div class="col-xs-3 search-products-thumbnail">	<!-- vignette de produit -->
+								<a href="./productInfo.php">
+								<div class="search-res-product">
+										<div class="search-res-product-thumbnail">
+										<span class="verticale-helper"></span>
+											<img src="http://www.da-mag.com/wp-content/uploads/2015/04/7UP_Mojito_50CL-e1429184135764.jpg" alt="product-img">
+										</div>
+										<div class="product-price">1,49 €</div>
+										<div class="product-info">
+											<div class="product-title">7up Mojito 1,5L</div>
+											<div class="product-rate">
+												      <input id="input-2c" class="rating" min="0" max="5" step="0.5" data-size="xs" data-glyphicon="false" data-show-clear="false" data-show-caption="false" data-rating-class="rating-fa">
+											</div>
+											</a>
+											<div class="product-interact">
+												<span class="verticale-helper"></span>
+												<img src="https://cdn1.iconfinder.com/data/icons/freeline/32/add_cross_new_plus_create-128.png" alt="">  <!-- donner id pour ajout -->
+												<img src="https://cdn4.iconfinder.com/data/icons/48-bubbles/48/33.Thumbs-Up-128.png" alt="">	<!-- donner id pour like -->
+												<img src="https://cdn3.iconfinder.com/data/icons/glypho-free/64/share-128.png" alt="">	<!-- si module de partage RS ? -->
+											</div>
+										</div>
+								</div>
+							</div>	
+					</div>
 					</div>
 
 			

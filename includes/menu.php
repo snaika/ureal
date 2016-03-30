@@ -18,7 +18,7 @@
 				</div>
 			</div>
 			<div class="header-news">
-				 <p>some information</p>
+				 <p>upReal est actuellement sur le forum EIP, d'Epitech. N'hésitez pas à venir découvrir vos futurs applications sur notre stand.</p>
 			</div>
 			<div class="header-search">
 				<form action="./search.php">

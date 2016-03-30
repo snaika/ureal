@@ -10,13 +10,13 @@
 		<div class="row">
 			<div class="col-xs-3 profil-picture" id="profil-picture">
 				<a href='javascript:PopupCentrer("test.php",500,200,"menubar=no,scrollbars=no,titlebar=no,resizable=no,status=no,location=no,channelmode=yes,")' id="change-profil-thumb">
-					<img src="http://www.online-image-editor.com//styles/2014/images/example_image.png">
+					<img src="http://top10for.com/wp-content/uploads/2014/04/Beautiful-Girl-Singapore.jpg">
 						<p>Modifier la photo</p>
 				</a>		
 			</div>
 
 			<div class="store-summup col-xs-8">
-	<h1 class="text-middle title">Jean Bonduel</h1>
+	<h1 class="text-middle title">Sara Mayne</h1>
 					<div class="toHide">
 						<p  id="desc">A la recherche de perles rares et autres. J'aime les années 80 et tout ce qui est rétro,
 						 n'hésitez pas me faire des propositions. Je peux me déplacer en IDF, pour toute propositions intéréssantes. 
@@ -51,7 +51,7 @@
 		        	<label for="username" class="col-sm-2">Login</label>
 					<div class="col-sm-8">
 					 	<div class="toHide">
-					 		<p id="username">Jean Bonduel</p><span>cliquez pour modifier</span>
+					 		<p id="username">SaraMayne</p><span>cliquez pour modifier</span>
 					 	</div>
 					 	<input  type="text" class="form-control toShow" id="username" placeholder="Votre nom sur le site" />
 		  			</div>
@@ -60,7 +60,7 @@
 		        	<label for="lastname" class="col-sm-2">Nom</label>					 
 					<div class="col-sm-8">
 						<div class="toHide">
-							<p  id="lastname">Bon</p><span>cliquez pour modifier</span>
+							<p  id="lastname">Mayne</p><span>cliquez pour modifier</span>
 						</div>
 						<input  type="text" class="form-control toShow" id="lastname" placeholder="Votre nom" />
 					</div>
@@ -69,7 +69,7 @@
 		        	<label for="firstname" class="col-sm-2">Prénom</label>
 					<div class="col-sm-8">
 						<div class="toHide">
-							<p id="firstname">Jean</p><span>cliquez pour modifier</span>
+							<p id="firstname">Sara</p><span>cliquez pour modifier</span>
 						</div>
 						<input type="text" class="form-control toShow" id="firstname" placeholder="Votre prénom" />
 						
@@ -88,7 +88,7 @@
 		        	<label for="CP" class="col-sm-2">Code Postale</label>
 					<div class="col-sm-2">
 						<div class="toHide">
-							<p id="address">94270</p><span>cliquez pour modifier</span>
+							<p id="address">94170</p><span>cliquez pour modifier</span>
 						</div>
 						<input type="text" class="form-control toShow" id="CP" placeholder="Code Postale" />
 						
@@ -96,7 +96,7 @@
 		        	<label for="city" class="col-sm-1">Ville</label>
 					<div class="col-sm-5">
 						<div class="toHide">
-							<p id="address">Le Kremlin Bicetre</p><span>cliquez pour modifier</span>
+							<p id="address">Le Perreux s/ Marne</p><span>cliquez pour modifier</span>
 						</div>
 						<input type="text" class="form-control toShow" id="city" placeholder="Ville" />
 					</div>
@@ -146,9 +146,9 @@
 
 		<a href="./userInfo.php">
 			<div class="friend-thumb ">
-			 	<img  src="http://hd.wallpaperswide.com/thumbs/master_yoda_star_wars-t2.jpg">
+			 	<img  src="https://pbs.twimg.com/profile_images/3716957761/a6db54cbe8d3415373d7d0e0b3601a53.jpeg">
 			</div>
-			<p class="username">Maitre Y</p>
+			<p class="username">Barry Porter</p>
 		</a>
 	</div>
 <!-- friend thumnail end -->
@@ -162,9 +162,9 @@
 
 		<a href="./userInfo.php">
 			<div class="friend-thumb ">
-			 	<img  src="http://static.comicvine.com/uploads/original/11113/111130081/3821766-2969176990-Yoda1.jpg">
+			 	<img  src="https://www.bostonconservatory.edu/sites/all/files/styles/900_wide/public/StephanieMoskalMAIN_0.jpg?itok=CIBDeBXb">
 			</div>
-			<p class="username">Yoda</p>
+			<p class="username">Alice Meyer</p>
 		</a>
 	</div>
 <!-- friend thumnail end -->
@@ -178,9 +178,9 @@
 
 		<a href="./userInfo.php">
 			<div class="friend-thumb ">
-			 	<img  src="http://img0.gtsstatic.com/wallpapers/8390a1a7c62b69f26e88849abf1fbef8_large.jpeg">
+			 	<img  src="https://pbs.twimg.com/profile_images/439996204932292608/I672NWMF.jpeg">
 			</div>
-			<p class="username">Vador</p>
+			<p class="username">Yasmine Keller</p>
 		</a>
 	</div>
 <!-- friend thumnail end -->
